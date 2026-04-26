@@ -1,0 +1,3900 @@
+[
+  {
+    "mint": "62HTzTAYkzDKfDxAYVuw3sydDTxWgErvmjzR2VqVEm7x",
+    "entrySolPerToken": 2.9667019685064336e-7,
+    "entrySizeSol": 0.006051778460000001,
+    "createdAt": "2025-12-11T17:14:06.299Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.708377460633042e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.4500529527596505e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.933403937012867e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-11T17:26:01.229Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "8fc9TBnoNwNJD2ks3D9n6GtcovH38A5UvQFqD9jmpump",
+    "entrySolPerToken": 2.973662802390632e-7,
+    "entrySizeSol": 0.0060107982,
+    "createdAt": "2025-12-11T18:38:57.759Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.71707850298829e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-11T18:40:50.643Z",
+        "sellSignature": "5iJV1wCKuVifHcrqKjN5JtPFRJQGqXuSqbK2ftpRjKaiv9Y34MvDXG44FFGhXjh6ePyAyeoieBT9gwva6ovAUBSM",
+        "realizedPriceSolPerToken": 3.7491278861992506e-7,
+        "realizedSolProceeds": 0.004506271
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.4604942035859485e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-11T18:45:27.124Z",
+        "sellSignature": "5Des53tjDGmQCNktvhZNLvA6Ho4Y5TvSgynyxzhvLN1D4HHT9BofxNRhgMFe9tSiVcSrWzAmYzQme5cBMDzwzrUb",
+        "realizedPriceSolPerToken": 4.6394506112661374e-7,
+        "realizedSolProceeds": 0.002788198
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.947325604781264e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-11T18:54:05.184Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "G4STBN3RoTMV2Hui3yvC18KTXakq897chb1LSKnbonk",
+    "entrySolPerToken": 3.033738513194983e-7,
+    "entrySizeSol": 0.006006476135,
+    "createdAt": "2025-12-11T19:56:38.548Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.7921731414937286e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-11T19:59:19.216Z",
+        "sellSignature": "BUrhqzKu8kQyPnK2qGojcmBWtJHisgbHHEDcU7Keu9fswbbo5QA9oU3ewcr247ow13frF5H6QJ2v13ZZgVbYvwe",
+        "realizedPriceSolPerToken": 3.841277160405862e-7,
+        "realizedSolProceeds": 0.004551727
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.550607769792474e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-11T20:02:39.105Z",
+        "sellSignature": "4Ws1kgMXQUuaKem3eHsMi4YBKR9QL4EFsg9kiCRcNiVY6oYdFhiThvUXgq7X5VBNbLpYxYNsHSivuhgxyKCVeWze",
+        "realizedPriceSolPerToken": 4.6538766869564987e-7,
+        "realizedSolProceeds": 0.002757309
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 6.067477026389966e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-11T20:11:47.618Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "FnWi1SY42kHEnM5JEbdomrVBcVS88kdGd517RyVth2kJ",
+    "entrySolPerToken": 2.969252851536877e-7,
+    "entrySizeSol": 0.006006476135,
+    "createdAt": "2025-12-11T19:56:38.551Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.7115660644210966e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-11T19:57:23.194Z",
+        "sellSignature": "dmJwGX1h3yiikPAejwuj9tC4TrvZhfgmRqW676x6uVrSgGb4bEhssztkwq9Yk8Lz1SAZsAUs7KMhZLdvUm2HXLw",
+        "realizedPriceSolPerToken": 4.4365558512799426e-7,
+        "realizedSolProceeds": 0.005383961
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.4538792773053155e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-11T19:58:13.473Z",
+        "sellSignature": "3sLY5sdBVR5vLdqC379FBXfx8Vq8hL7XwswexnSb8VmjC5P98DgPjK5KZjcpDBW7mdxvPWjYKKmWWP3ynPLYXyCr",
+        "realizedPriceSolPerToken": 5.647969332449423e-7,
+        "realizedSolProceeds": 0.003427033
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.938505703073754e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-11T19:58:31.598Z",
+        "sellSignature": "dVdJZ5FYnhGK25eRq8Y6J7Ap23xdPoPbaJdCPA1Mzyh1dGeFDNmEHLnjTMhWZwiZofwYgFHj4ciBQu9grdeiFhD",
+        "realizedPriceSolPerToken": 6.625330547889136e-7,
+        "realizedSolProceeds": 0.001340023
+      }
+    ],
+    "closedAt": "2025-12-11T19:58:32.090Z",
+    "realizedSolTotal": 0.010151016999999998,
+    "pnlMultiple": 1.690012042310395,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "5saDDvHbPpkLDmoiRusAvh9nCZYWQ3s2xJxsB3ZVpump",
+    "entrySolPerToken": 3.0498183692580803e-7,
+    "entrySizeSol": 0.00601218299,
+    "createdAt": "2025-12-11T21:34:11.473Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.8122729615726005e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-11T21:36:23.459Z",
+        "sellSignature": "QL3Huv7pCi22TTgGZb5ceTiwVQf9DajMuqkQgJ2chtGKG82isG7rj6yWVscSeip1E1WhZaRqeSbcqvmMRtjWn3w",
+        "realizedPriceSolPerToken": 4.044968202054715e-7,
+        "realizedSolProceeds": 0.004784368
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.57472755388712e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-11T21:39:36.162Z",
+        "sellSignature": "hjS7epYEApjXhdWHVNeEcRwFioKDvA9RAgite7Y3hAFrXMnwyEBYZRh32eKARjJLx1h2NJP9AUF5hrQ6UbyUpQ3",
+        "realizedPriceSolPerToken": 4.601198167931641e-7,
+        "realizedSolProceeds": 0.002721137
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 6.099636738516161e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-11T21:49:29.102Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "BfSStuF2ifB33nDhpLqHvtqBL9N63tXjUxuL8UGpump",
+    "entrySolPerToken": 0.0000014744587494142694,
+    "entrySizeSol": 0.005971400690000001,
+    "createdAt": "2025-12-11T21:35:14.645Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 0.0000018430734367678368,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-11T21:37:30.518Z",
+        "sellSignature": "5piCGY94YzpbQ5zfuDiWMah8PVdLGo26M5wUyY2Fccvy85RufAvwvG3n7XBNAj3tYUoEkfJMLcWKgZEUUcXiVBWT",
+        "realizedPriceSolPerToken": 0.000001941622558553521,
+        "realizedSolProceeds": 0.005283506
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.000002211688124121404,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-11T21:42:13.040Z",
+        "sellSignature": "2wg2ZagRaqrekna2rphwHK2YqEbAf1jZC9hKxqLBdf1ffq247ieVwvbPiiNW9peLfu3dtiqGwaBXxxXEqXuzo8Z8",
+        "realizedPriceSolPerToken": 0.000002306278962532701,
+        "realizedSolProceeds": 0.003137901
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.000002948917498828539,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-11T21:46:10.098Z",
+        "sellSignature": "KpyPEjoktDvfRzELqNZPHouyKXgkC3zE66K3CUwikUp9PWm24SqSJgzu46hjCiqyuqLeLb8xH5F8vQAjvNBwnZ4",
+        "realizedPriceSolPerToken": 0.0000035085937873441975,
+        "realizedSolProceeds": 0.001591253
+      }
+    ],
+    "closedAt": "2025-12-11T21:46:10.589Z",
+    "realizedSolTotal": 0.01001266,
+    "pnlMultiple": 1.6767690730866025,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "4dy8qDi2SL4TybW29T96JvPVBZ9YannubAQgW1bKAxkH",
+    "entrySolPerToken": 2.5027369362777564e-7,
+    "entrySizeSol": 0.006023013240000001,
+    "createdAt": "2025-12-11T22:36:51.441Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.1284211703471955e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-11T22:37:16.838Z",
+        "sellSignature": "QbeHAbLk4V5yTdGQ1GsyN96p8QhCDhp3VAkzH6my78Y3RoKRNm8hJ1bJNk2PpNbxwqfoMDRPuGNeCEkbVAsHAaG",
+        "realizedPriceSolPerToken": 4.068823698108914e-7,
+        "realizedSolProceeds": 0.005875147
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 3.7541054044166346e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-11T22:37:38.137Z",
+        "sellSignature": "8uthGKLNSq8Z6n4XCCvqFoasVSxxsd8GnQc1ZWJggU9jqtRcDMEJTfVSFFmdzc2ZqxA814kJvUCfNh7CnHB5ot3",
+        "realizedPriceSolPerToken": 5.301018982539648e-7,
+        "realizedSolProceeds": 0.003827183
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.005473872555513e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-11T22:38:41.318Z",
+        "sellSignature": "52tXnKWqYt8J5Frq1ZCPtGWNSNiT2igSFhqwHEKc1WKfVD9yZQtF61veJK8AtHSkgfokCeJgMYLyJPPJyH6dGqGp",
+        "realizedPriceSolPerToken": 0.0000014040647460004502,
+        "realizedSolProceeds": 0.003378981
+      }
+    ],
+    "closedAt": "2025-12-11T22:38:41.803Z",
+    "realizedSolTotal": 0.013081311,
+    "pnlMultiple": 2.171888136178163,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "D91nAnao7ezBzKVQQkzmiJU8D4ptv4RuP7t2UyKyfyTY",
+    "entrySolPerToken": 2.8057151847632795e-7,
+    "entrySizeSol": 0.006047834665000001,
+    "createdAt": "2025-12-12T00:23:19.844Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.507143980954099e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-12T00:24:47.128Z",
+        "sellSignature": "5qVYjxBreNZN8oZYQYw7p4TUTRbPiAwGyPMa4YKzzo2HnAuAC6rmbcz5XGwhu2zaWkk6Du149SpmbkqFRgv3wq4g",
+        "realizedPriceSolPerToken": 3.921553443602105e-7,
+        "realizedSolProceeds": 0.005071842
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.208572777144919e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-12T00:25:34.539Z",
+        "sellSignature": "2d65W47tEQBTjAaFJvrLFpDuHdYuMaJPiXWdeMSCqqYRga4oNkrtevjmuLYimx9omNWPnGFjaaCkCj6gC2gb2ZPj",
+        "realizedPriceSolPerToken": 4.772764268709434e-7,
+        "realizedSolProceeds": 0.003086367
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.611430369526559e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-12T00:33:27.534Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "J6wekv2D1PSBYNZA14xSs62efFTFhunoY2k6EofAP3BG",
+    "entrySolPerToken": 0.0000011141223909660309,
+    "entrySizeSol": 0.00604786441,
+    "createdAt": "2025-12-12T00:31:58.340Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 0.0000013926529887075386,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-12T00:40:04.996Z",
+        "sellSignature": "27BuwS6heHb9j5q5t25ikP7KmwreEyktszTrbba6bDFivt9qs8hczEek9tPysUFXw1AMeeuEYipjgYbznyzv1hTF",
+        "realizedPriceSolPerToken": 0.00000140214976244757,
+        "realizedSolProceeds": 0.004565926
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000016711835864490462,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-12T00:49:01.661Z",
+        "sellSignature": "rDkxPfmTQYGrnkx7oCA3ma9gFozLiELGn8k3SvRuK5x7q6zhsQRXRYuVYJAkfPcxWxykFtWrJ8U3rYtGKNizC9T",
+        "realizedPriceSolPerToken": 0.0000016942088405046456,
+        "realizedSolProceeds": 0.00275849
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.0000022282447819320617,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-12T00:59:59.284Z",
+        "sellSignature": "2bSU9jVGJjtF9dNreiZWymwwxhZD7rmgu9bB9K4bniwPs8ziV7nJGj4dfwncVrihNxfruRxdgpecFJpnSwUbzTGM",
+        "realizedPriceSolPerToken": 0.000002244859722730801,
+        "realizedSolProceeds": 0.001218351
+      }
+    ],
+    "closedAt": "2025-12-12T00:59:59.776Z",
+    "realizedSolTotal": 0.008542767,
+    "pnlMultiple": 1.4125262110497612,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "9HVatqhdrEDG51VYZyyiM7NMUz7BiHUF6NZAmJP5UF1z",
+    "entrySolPerToken": 1.9725653965114858e-7,
+    "entrySizeSol": 0.006049328885000001,
+    "createdAt": "2025-12-16T17:39:24.368Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.465706745639357e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-16T17:40:23.453Z",
+        "sellSignature": "5sA6odUaKyYmJCbKwHiPRyPA1ZVswybHgJZm3Ybwv2HPBXCSPgiUQMYyaH7zebNvDAZHEFzgBjJKyDxkPLcr8nDn",
+        "realizedPriceSolPerToken": 7.975846403001158e-8,
+        "realizedSolProceeds": 0.001489189
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.958848094767229e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-16T17:40:56.220Z",
+        "sellSignature": "4EtKcvNiKwLFXgsj7Krv6XcRx1N5GvQqUZ4xT7HFhJdtUm5HEMEq2yBk2eWDjRdKR9e6SNUWYomKe4MRsp53Drbo",
+        "realizedPriceSolPerToken": 3.05852206334825e-7,
+        "realizedSolProceeds": 0.002855358
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.9451307930229717e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-16T17:42:15.087Z",
+        "sellSignature": "34w7zVq3QnPSZEDmHgbzGKF2rWTrbJDE8qvz1LiWJsQqCokJjztBMtsdufjZFUVUnp8wCvJG9QB39rmKQ7ReQRWo",
+        "realizedPriceSolPerToken": 1.541038371734527e-7,
+        "realizedSolProceeds": 0.000479571
+      }
+    ],
+    "closedAt": "2025-12-16T17:42:15.607Z",
+    "realizedSolTotal": 0.004824118,
+    "pnlMultiple": 0.7974633371252056,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "AhHcDoynQ9YS9zALpv4ygdCNCN7AoCgcprAmJiu6pump",
+    "entrySolPerToken": 1.7638268131513943e-7,
+    "entrySizeSol": 0.006041654925,
+    "createdAt": "2025-12-16T20:13:29.119Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.204783516439243e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-16T20:17:55.060Z",
+        "sellSignature": "2Z1poAWLC5boFzXC3qTfg1tU1Lp34bE5TPWXvEw4kuvaFgNJx9qbbesnyEJwtTAQCSoHpvYTWJpGKvBeR7n1b95M",
+        "realizedPriceSolPerToken": 2.249283034495635e-7,
+        "realizedSolProceeds": 0.004622696
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6457402197270915e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-16T20:20:45.561Z",
+        "sellSignature": "2uQvmwNUjcHhu4hT3rf2WdegF5YC2c2bayySCLJsgWDXTS5cj4G6f9haxhcCepiBnAsMJPJHc13fc2qpLivK7zh7",
+        "realizedPriceSolPerToken": 2.68396087241211e-7,
+        "realizedSolProceeds": 0.00275802
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5276536263027887e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-16T20:27:45.162Z",
+        "sellSignature": "67BW1KLAEAPQ1ZUwatyP2oN66JALhLNLXnsx6mguFknjFajyw9Qq2QSWeSxpZDqcS6wgaPAbrcYWcep8tGrojkfK",
+        "realizedPriceSolPerToken": 3.594949753376244e-7,
+        "realizedSolProceeds": 0.001231382
+      }
+    ],
+    "closedAt": "2025-12-16T20:27:45.645Z",
+    "realizedSolTotal": 0.008612098,
+    "pnlMultiple": 1.4254534737433717,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "BSaQoABA5YcqpkSUQVDZMiEjncL1N5fWiLGKMHQM3ct8",
+    "entrySolPerToken": 1.1258500716398933e-7,
+    "entrySizeSol": 0.00603683015,
+    "createdAt": "2025-12-16T20:22:02.976Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.4073125895498666e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-16T20:25:52.853Z",
+        "sellSignature": "4VHfPa7ufw7GJcWoHT4gepNokMvUoWwxED4UYcwVMopCWz1VvvRceS7EDFi6Ff5V8zzrVi6YE9rjNngFnHh5pqAY",
+        "realizedPriceSolPerToken": 1.3891249968611024e-7,
+        "realizedSolProceeds": 0.004468403
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.6887751074598402e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-16T20:25:54.007Z",
+        "sellSignature": "5t9GE4VWnVb3rQXqMsZXcm7boxFC2WHcqzZt318LVCUnjqPR7Mo3GsZbUmteH5k1bGyy7hgW7fvkEMG8mzTnVZpv",
+        "realizedPriceSolPerToken": 1.8354640655958518e-7,
+        "realizedSolProceeds": 0.002952112
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.2517001432797867e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-16T20:27:28.188Z",
+        "sellSignature": "4aFAUQCyk52jqwJbrctCwcEovhHuHJxG1qraMTvh5ibi52MSpXyJkf17QXKLuX5j7SgbC3cDoFTYWRTDJH33PSUM",
+        "realizedPriceSolPerToken": 2.387300094062167e-7,
+        "realizedSolProceeds": 0.001279925
+      }
+    ],
+    "closedAt": "2025-12-16T20:27:28.677Z",
+    "realizedSolTotal": 0.00870044,
+    "pnlMultiple": 1.4412265682180905,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "H1K94Pp8YFTJ1my1jpwCuYhSdeA6QgHWktXuq14Npump",
+    "entrySolPerToken": 1.7246223905653012e-7,
+    "entrySizeSol": 0.00601952393,
+    "createdAt": "2025-12-16T20:36:42.278Z",
+    "status": "OPEN",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.1557779882066265e-7,
+        "fraction": 0.6,
+        "attemptCount": 1,
+        "lastAttemptAt": "2026-01-02T07:07:31.698Z"
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.586933585847952e-7,
+        "fraction": 0.75,
+        "attemptCount": 1,
+        "lastAttemptAt": "2026-01-02T07:07:37.503Z"
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.4492447811306025e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2026-01-02T07:07:38.535Z"
+      }
+    ]
+  },
+  {
+    "mint": "EPCAaXtvaQQDsJPPeTf5ixsjZuBnAwuXNvuL69wvyjiR",
+    "entrySolPerToken": 1.2853270590890377e-7,
+    "entrySizeSol": 0.00597961781,
+    "createdAt": "2025-12-16T21:23:33.740Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.6066588238612972e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-16T21:28:20.307Z",
+        "sellSignature": "hRpGpG7hWUV43AfFAMYvX3fWfYTA8iUimpZK7yPJEjn9Dg3ninPSysbbCrf79J7GuSkacew9paxVzhkzasLZLPu",
+        "realizedPriceSolPerToken": 1.4086078743627591e-7,
+        "realizedSolProceeds": 0.003931888
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.9279905886335565e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-16T21:35:05.666Z",
+        "sellSignature": "3r7yqWy3YDzqu5SZNPtmHQScgCGiSjdPeLz7tfmThc1EirRThSeBQZwtmcHbqVc8EUtM9JqsHhk1aHikcZ48bqmx",
+        "realizedPriceSolPerToken": 2.2412675714777395e-7,
+        "realizedSolProceeds": 0.0031281
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.5706541181780755e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-16T21:37:45.933Z",
+        "sellSignature": "22HTzaYbstbEJoANsB3idCA3rtTPT5KLooFX7qhaSLzDjUrb7wJKTcXLdWqrv6i6Dnyh7G9G7hsmBLYLaVxuvrWd",
+        "realizedPriceSolPerToken": 2.8199018543331684e-7,
+        "realizedSolProceeds": 0.001311933
+      }
+    ],
+    "closedAt": "2025-12-16T21:37:46.420Z",
+    "realizedSolTotal": 0.008371921,
+    "pnlMultiple": 1.4000762700919174,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "DCXViDgzZKkk2HZGkrL2chLR7m92sc9Vy5riLMvxE8ag",
+    "entrySolPerToken": 1.378256965206123e-7,
+    "entrySizeSol": 0.005951845245,
+    "createdAt": "2025-12-16T22:18:30.845Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.7228212065076537e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-16T22:20:43.226Z",
+        "sellSignature": "2u3E7CAcrT9oSYtqZkTavvfGRRZvEdVmVPQTWrbELXDemo8KP8f9nw4XCCc2B6UKLz1BMsXKr5JoAuqUjawqPzGr",
+        "realizedPriceSolPerToken": 1.9920718008984387e-7,
+        "realizedSolProceeds": 0.005108224
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.0673854478091845e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-16T22:21:17.406Z",
+        "sellSignature": "32VyoQruSS4tUBiVJ2s3CURRsZhaYvoc1SFc7UVnqc7EGknJhvK4brV24mtTJsxxwXfFc5DM7jyXQaRaNYvnCUQY",
+        "realizedPriceSolPerToken": 2.1323429155465757e-7,
+        "realizedSolProceeds": 0.002733959
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.756513930412246e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-16T22:23:37.388Z",
+        "sellSignature": "5D6nAuv6VWMiTLoMNPYHCBYoQFbWn51wRXBJo86VDPJsoaEifPvE6oHN74KpidfenLgkY3UDRSofSQyscFozhSus",
+        "realizedPriceSolPerToken": 2.8259309970290405e-7,
+        "realizedSolProceeds": 0.001207745
+      }
+    ],
+    "closedAt": "2025-12-16T22:23:37.878Z",
+    "realizedSolTotal": 0.009049927999999999,
+    "pnlMultiple": 1.5205247494636427,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "4ESBLKqpWZqBHBhqrpArtATkCRcNyHaTAiMMCdLrUWhe",
+    "entrySolPerToken": 2.487630705256573e-7,
+    "entrySizeSol": 0.00595673592,
+    "createdAt": "2025-12-16T23:28:51.955Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.1095383815707163e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-16T23:33:32.083Z",
+        "sellSignature": "3QJBKsQn9YBdJsyebeSGVVG3QQJrs49wc4m55QQV1aBHXjVLi9mM8XAenHojesaR4uQQhxcQmzeQPB922TZy8uTz",
+        "realizedPriceSolPerToken": 3.6281152344691965e-7,
+        "realizedSolProceeds": 0.005197992
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 3.731446057884859e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-16T23:33:52.629Z",
+        "sellSignature": "4duhHGzWwcMKvJmLrHX23fs4L1skApyKzYAKeZMPUsZSzCRf9RsHBs7EYLvgNLHzcQw9piXMxQZ61wMSDbNRRVvt",
+        "realizedPriceSolPerToken": 4.1636414737371037e-7,
+        "realizedSolProceeds": 0.00298266
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 4.975261410513146e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-16T23:34:26.868Z",
+        "sellSignature": "651npnpRDUFjDkHwp8WHErjkceY7JbZaheQx39XT88m6Tcf6VqHjGmTca2U87WiYaScbvBCdQnLnuapi9rCgT8eC",
+        "realizedPriceSolPerToken": 5.679015316068376e-7,
+        "realizedSolProceeds": 0.001356107
+      }
+    ],
+    "closedAt": "2025-12-16T23:34:27.358Z",
+    "realizedSolTotal": 0.009536759,
+    "pnlMultiple": 1.6010041620243591,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "EjPsGFdRBEihs93cG4WxKw6E8kWeu8hMEN9Wxq3Qpump",
+    "entrySolPerToken": 2.9150715653232405e-7,
+    "entrySizeSol": 0.0059329584000000005,
+    "createdAt": "2025-12-17T04:42:26.869Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.6438394566540505e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-17T04:44:06.092Z",
+        "sellSignature": "39riiBMmVJvnswX1BpE2e7WBp16GXjmiAVWaifunGX9hAj1yVG48kz81myKD5U67M4Ayb551nJQa1zAFRXfbKdN9",
+        "realizedPriceSolPerToken": 3.746762514271518e-7,
+        "realizedSolProceeds": 0.004549441
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.372607347984861e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-17T04:45:39.250Z",
+        "sellSignature": "mTSFdK6HSGmtJs7gKxc1q1URRgCsFJvRwCjkUBeHpX6dc4zgvewoU1Uz5jKjFromA2Tw9Ey7iHXHTX29rAUBeWU",
+        "realizedPriceSolPerToken": 4.1337600459265436e-7,
+        "realizedSolProceeds": 0.002509673
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.830143130646481e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-17T04:56:38.055Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "9N6DagSB66N15yXb8JodWUXBL3f5vcGocqirK8hQRMyB",
+    "entrySolPerToken": 6.681046163639382e-7,
+    "entrySizeSol": 0.023715005940000002,
+    "createdAt": "2025-12-18T02:40:43.875Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 8.351307704549227e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000010021569245459074,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.0000013362092327278764,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-18T02:50:50.928Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "46J6hYeWnLdrMSbGXxggQf4XenYXZpRkYxJqQWAYhQ4Q",
+    "entrySolPerToken": 1.17364147388701e-7,
+    "entrySizeSol": 0.02319782028,
+    "createdAt": "2025-12-18T02:56:52.301Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.4670518423587625e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-18T02:58:15.349Z",
+        "sellSignature": "5up8KpJ5PVTsUFv5oXRw2W4T86CxhQyGLhXrq1UvAAaipbHAWWcYH8oE9c9jWvBbXJwjULnwu9B1GQtA6Tdt6XZQ",
+        "realizedPriceSolPerToken": 1.5187631810269564e-7,
+        "realizedSolProceeds": 0.017779894
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.7604622108305152e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-18T02:59:33.102Z",
+        "sellSignature": "3WgdrvbpW3uoWSNf9Jiuxwjd3an232q8BN8bsuLQcTz2ZkXsXNLMYEahZXWbrKtWfkcyt5p2EeqAU33WpVPpxxC6",
+        "realizedPriceSolPerToken": 1.899079128922244e-7,
+        "realizedSolProceeds": 0.011116244
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.34728294777402e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-18T03:00:20.995Z",
+        "sellSignature": "5poLiT8q2wxA5faUdyuiQSb5hoEuYyvEbPDaLDjrwxJV1KAyJX9L5e1GsiiVAK1DLQ9XFDkfRdjmvbFx86hiZUks",
+        "realizedPriceSolPerToken": 8.47433218083698e-8,
+        "realizedSolProceeds": 0.001653526
+      }
+    ],
+    "closedAt": "2025-12-18T03:00:21.475Z",
+    "realizedSolTotal": 0.030549664,
+    "pnlMultiple": 1.3169195912056613,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "GgETyzdki4mMxZsi9fDbbaqb36bYgQHJFh41NZUARPya",
+    "entrySolPerToken": 1.204622480463121e-7,
+    "entrySizeSol": 0.023316832399999998,
+    "createdAt": "2025-12-18T05:18:18.905Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.505778100578901e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-18T05:19:31.097Z",
+        "sellSignature": "5eyuirRU6HaPRHc8Gfikk81vWn7iCKgCeB4ghpi2L7sJ7fYw8EhZcmGpS3Zxsm3NTxMfiWkdhccD6GBfuKNeCyZz",
+        "realizedPriceSolPerToken": 1.5423687650959083e-7,
+        "realizedSolProceeds": 0.017835603
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.8069337206946815e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-18T05:20:38.273Z",
+        "sellSignature": "CxVENW1Dx5K7XnrHjiBmtxFVfDH6qWrcn9dGzh4TE7C6mfkaDWLC6Y4r5HW3HAvZDvRmUKrPuyt8FWjR5hLb8C9",
+        "realizedPriceSolPerToken": 1.8378225369726708e-7,
+        "realizedSolProceeds": 0.010626226
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.409244960926242e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-18T05:22:32.049Z",
+        "sellSignature": "2rnCFkKWxN1UJtzyPuMfb9Q9CHXo8HCjBzs2uWvAFER2yo35sanPDsnquzfsohmA6YNTZGhgW4jBxZpP8htA9v2p",
+        "realizedPriceSolPerToken": 2.6085106046011506e-7,
+        "realizedSolProceeds": 0.005027576
+      }
+    ],
+    "closedAt": "2025-12-18T05:22:32.553Z",
+    "realizedSolTotal": 0.033489405,
+    "pnlMultiple": 1.4362759239972924,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "Hbr4vLvQHQrXcspWTUkbUHsLYBsQi3F9MbdaNtbdvnmX",
+    "entrySolPerToken": 1.2246839136637573e-7,
+    "entrySizeSol": 0.02335486256,
+    "createdAt": "2025-12-18T13:28:00.390Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.5308548920796967e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-18T13:30:49.408Z",
+        "sellSignature": "2Z7vjruomYHk7Vxz1pTHzq121jRLvyaw1FXxTqbHqwqpHw7qSz8hKVWLqP4VpVYsN5ZkvnRLM195vgTFKJVfcyaH",
+        "realizedPriceSolPerToken": 1.6249447068357376e-7,
+        "realizedSolProceeds": 0.018508747
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.837025870495636e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-18T13:31:52.431Z",
+        "sellSignature": "38skXXkPh2p88cD52VboqVXrXtgdeaiZ2UwAgX7a1pCKJXv1k4D5VGD6pzfMrAvQpvsmtT7r31iTrp6c2E2HwULQ",
+        "realizedPriceSolPerToken": 8.47401779195483e-8,
+        "realizedSolProceeds": 0.004826182
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.4493678273275147e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-18T13:34:58.414Z",
+        "sellSignature": "4qnUNsKz2ULgjDpBvdZJYFyRMtm2yj2VJvqdzvb2uJKFU8o9DnWxdwNLteGMwtJ72AX9ZyYHkz91VhGDLB9avq9d",
+        "realizedPriceSolPerToken": 2.4965015442281094e-7,
+        "realizedSolProceeds": 0.004739546
+      }
+    ],
+    "closedAt": "2025-12-18T13:34:58.906Z",
+    "realizedSolTotal": 0.028074474999999998,
+    "pnlMultiple": 1.2020826467239978,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "Abd1j6fXUBSiVMLHsmmXcpttRkuEm7UbfdAsxrfMn4Ek",
+    "entrySolPerToken": 1.8364847144034124e-7,
+    "entrySizeSol": 0.023427870099999998,
+    "createdAt": "2025-12-18T23:11:46.840Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.2956058930042656e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.7547270716051183e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.672969428806825e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-18T23:21:54.014Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "HgnnTPcyKLWksaSUrEw5QTdhJRB4c2HpihkvJRjC1jH8",
+    "entrySolPerToken": 0.000001770918365185441,
+    "entrySizeSol": 0.022867707140000002,
+    "createdAt": "2025-12-18T23:40:54.702Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 0.0000022136479564818014,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000026563775477781616,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.000003541836730370882,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-18T23:50:55.939Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "HY1GR3HcUwvPW3jr5MCik4dDvKX7bUBFcWDqcqffujbZ",
+    "entrySolPerToken": 1.1631167149637281e-7,
+    "entrySizeSol": 0.0223653674,
+    "createdAt": "2025-12-19T02:37:48.868Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.45389589370466e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T02:39:24.283Z",
+        "sellSignature": "3ya3TE5vaCoLDG3eQyMfkgAnFoHgqu8EuSvXsAShkZ7psUFFpSfuL85vCLWzgV4JFqbdBYcu91GhUdVJn2FvD7iu",
+        "realizedPriceSolPerToken": 1.4790180218027807e-7,
+        "realizedSolProceeds": 0.017042297
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.7446750724455923e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T02:41:00.337Z",
+        "sellSignature": "4aNVHKnRhym7SaXStm4fQ7V3oB4eeFKDnpYeYCjzuWXsjoA35UZQ2iQzVHN9VPJXooKsNLR7ixUiRiZV81KjmnBx",
+        "realizedPriceSolPerToken": 1.934747880169267e-7,
+        "realizedSolProceeds": 0.011146921
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.3262334299274562e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T02:42:04.023Z",
+        "sellSignature": "54DShvCAzgEHbnEuHiA9pqcD7rDLadBvQ3csFPhkWZP43jBzd2ytysLLQkpc7q6W5pN3sYwEn8qj8dKkm7GiXrm9",
+        "realizedPriceSolPerToken": 2.443282068250167e-7,
+        "realizedSolProceeds": 0.004692396
+      }
+    ],
+    "closedAt": "2025-12-19T02:42:04.484Z",
+    "realizedSolTotal": 0.032881614,
+    "pnlMultiple": 1.470202273538328,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "52MCFWmz2vLTghPJZ4ktKkjFnnym5SX9Z4ymVca6kV4p",
+    "entrySolPerToken": 1.2613755796498252e-7,
+    "entrySizeSol": 0.0224023147,
+    "createdAt": "2025-12-19T02:51:26.833Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.5767194745622815e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.8920633694747378e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.5227511592996504e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-19T03:01:28.115Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "4wuHrJfqDrVMUPxwSrBFhQkMCn6uZcsjZY27eGrxpump",
+    "entrySolPerToken": 2.871414563553838e-7,
+    "entrySizeSol": 0.02190344842,
+    "createdAt": "2025-12-19T03:51:16.971Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.5892682044422977e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T03:52:17.417Z",
+        "sellSignature": "3V4SRxSDRbm3N8dA65aJGVw3gJVeNiTraanKg7dZZVAYAk6QQummfujwWoaMbY32QAGXAydn5giLj6CVMx5AUPgN",
+        "realizedPriceSolPerToken": 3.6268844932498374e-7,
+        "realizedSolProceeds": 0.016601928
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.307121845330757e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T03:53:20.293Z",
+        "sellSignature": "2RY5ekAwN3p63gCdjwBDsphNGnKfBG41EsQ3NfjaQJho2VVyYBBS5NRD3u6uBiR5MEMdygEFSV7cTExKuZW2nyL",
+        "realizedPriceSolPerToken": 5.07169718233473e-7,
+        "realizedSolProceeds": 0.011607752
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.742829127107676e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T03:55:24.712Z",
+        "sellSignature": "aXr6rKQFabXK2jDoaJWoVsvwmhao6rNicFrXr2YkgkRajsYFyFrFqenHPoyfxWdVCLoXTtsfV4bfd2LbxwXLdfC",
+        "realizedPriceSolPerToken": 6.029798299212604e-7,
+        "realizedSolProceeds": 0.004600196
+      }
+    ],
+    "closedAt": "2025-12-19T03:55:25.163Z",
+    "realizedSolTotal": 0.032809876,
+    "pnlMultiple": 1.4979319863643645,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "CVk7bkMsXTs5VKczYhzcSbZ2Yiu9zBuX6avG5YBzpump",
+    "entrySolPerToken": 1.7681030746778774e-7,
+    "entrySizeSol": 0.02208831826,
+    "createdAt": "2025-12-19T08:51:49.937Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.2101288433473469e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T08:56:14.443Z",
+        "sellSignature": "3NBhmocRAwkW62jpeVEYgi2NV4HLNsiyci6G13hDBm9METp1TWNHjxErRibjLjtQYzThLQs7xH8EYi1agFUFocvc",
+        "realizedPriceSolPerToken": 2.2472049982145414e-7,
+        "realizedSolProceeds": 0.016695922
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.652154612016816e-7,
+        "fraction": 0.75,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-31T19:13:29.722Z",
+        "hit": true,
+        "hitAt": "2025-12-31T19:13:31.912Z",
+        "sellSignature": "2EiRmTi6LjapeyJFMHfDxr6eXqfxCQZ6uYP3EYDMNfp4xtx44HrBLUUUFdExkfw3WWun2ZsZ8Pbuya5Zfqvttsjp",
+        "realizedPriceSolPerToken": 2.779952009917336e-8,
+        "realizedSolProceeds": 0.001032702
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.536206149355755e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-31T19:13:32.837Z",
+        "hit": true,
+        "hitAt": "2025-12-31T19:13:34.139Z",
+        "sellSignature": "deP6eELkFGBqYfFeAfsT1CXi2BmL3M7xFMJeR8jCKuhGCdo9b4HPSA4QbE43i1v6437ckfq3KKZARxCjTjpMVdY",
+        "realizedPriceSolPerToken": 2.77981472195575e-8,
+        "realizedSolProceeds": 0.000344217
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6266548287036474e-7,
+    "beStopArmedAt": "2025-12-31T19:13:32.379Z",
+    "closedAt": "2025-12-31T19:13:34.435Z",
+    "realizedSolTotal": 0.018072841,
+    "pnlMultiple": 0.8182081038160485,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "EHHqkUSeD2TZDGotyHFaMYPQPUcjVPoZvjk4mDvhpump",
+    "entrySolPerToken": 1.7557920598313086e-7,
+    "entrySizeSol": 0.021937991900000002,
+    "createdAt": "2025-12-19T09:20:01.795Z",
+    "status": "OPEN",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.1947400747891356e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T09:25:09.625Z",
+        "sellSignature": "346u3mxEyDNEXCL1ag7NtPMaXcvaUeGDoBuB1PLdkRz2ZmAWwuk1E28VgHH6JGviCKZhVqxT3A2jk1HfK6y7nLfU",
+        "realizedPriceSolPerToken": 2.2324599487751943e-7,
+        "realizedSolProceeds": 0.016727844
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.633688089746963e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T09:28:33.100Z",
+        "sellSignature": "3VXfTVaYCwQtKgT39S7Rx6pSJwySj6z578XqH1U1bJ4yfcEWqh5LzKhiNjGkGhU3D2Q6wsTn3CfYVa46pp7tF9CH",
+        "realizedPriceSolPerToken": 2.700753218239818e-7,
+        "realizedSolProceeds": 0.010118385
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.511584119662617e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "9hjBb3zn46zhUwaR5cYkL23qZPtPRateqsaHFgxLZpKr",
+    "entrySolPerToken": 4.6853172018903183e-7,
+    "entrySizeSol": 0.02199061016,
+    "createdAt": "2025-12-19T09:42:07.412Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 5.856646502362898e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T09:43:59.079Z",
+        "sellSignature": "5v9ksQivC5wT8RfmuVVGAgaWH7Qi4DiWSLKQoKUcbFQiWLhTm5jMqKDYDt5PtPDYQ1uSNA2ZxvtAtnhygEj8sVkX",
+        "realizedPriceSolPerToken": 5.900680749172079e-7,
+        "realizedSolProceeds": 0.01659407
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.027975802835477e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T09:54:04.127Z",
+        "sellSignature": "3Yeu2isF3DA9JsTE4NWDT9imMq4kEyAtdGivddX2FjJ1v8US7WM1YWcNPFXbw5i1SRddxSs5PyPy6tnvLCUVGcgM",
+        "realizedPriceSolPerToken": 7.149491230583864e-7,
+        "realizedSolProceeds": 0.010053006
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.370634403780637e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T10:09:04.553Z",
+        "sellSignature": "3xpwNdhtm9V949wxc2nyU2MKKWxMYZgugDUj4wkSdGkqHdEuUWqTzVgYQZQv9CbvCBah3V3osLWCJw5tVsSEkCX5",
+        "realizedPriceSolPerToken": 9.388556504584155e-7,
+        "realizedSolProceeds": 0.004400463
+      }
+    ],
+    "closedAt": "2025-12-19T10:09:04.999Z",
+    "realizedSolTotal": 0.031047539,
+    "pnlMultiple": 1.4118543675734005,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "Djq9Gn2KcUAitN3XyqZPrxNyAR8NuV7dAq59mDtDM9NW",
+    "entrySolPerToken": 1.2928320803506128e-7,
+    "entrySizeSol": 0.02213021842,
+    "createdAt": "2025-12-19T10:27:21.800Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.616040100438266e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.9392481205259192e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.5856641607012256e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-19T10:37:34.368Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "6KNmrgALhEb9jjs3yZG9C3Tigs5Fqw2NpkVmGgTSpump",
+    "entrySolPerToken": 1.7529892152949416e-7,
+    "entrySizeSol": 0.02159600846,
+    "createdAt": "2025-12-19T11:29:34.093Z",
+    "status": "OPEN",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.1912365191186768e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T11:34:33.795Z",
+        "sellSignature": "w4tjPCcYz7zP8vCnh5WDyGaqv9mw7E7Swp5JAGtGaaaX1t2RF6QybHPrQMgKeHqLMYPvj6mLiZrXNc2CBYsVDx5",
+        "realizedPriceSolPerToken": 2.2229740874034583e-7,
+        "realizedSolProceeds": 0.016324583
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6294838229424126e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T11:37:12.760Z",
+        "sellSignature": "5GiDVG8enWNFLjnejso183XoSqYYxY6xrBaN5LGrwcRxENKHFF3dokQQUgKgNX6mwyuCvPqiXooqiKbZCfi1qdbk",
+        "realizedPriceSolPerToken": 2.6454162694676386e-7,
+        "realizedSolProceeds": 0.00971341
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.505978430589883e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "3cFh5pyL9sq4xfP5nGSZjdyj2LYvJX4a4FWEamCipump",
+    "entrySolPerToken": 1.7621779911111083e-7,
+    "entrySizeSol": 0.02164035052,
+    "createdAt": "2025-12-19T11:43:06.758Z",
+    "status": "OPEN",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.2027224888888853e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6432669866666625e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5243559822222165e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "fVjVdpmtzgfqyciRtcBfNikmp1C3GruuFwoGxZ9Q5we",
+    "entrySolPerToken": 4.6802607829401906e-7,
+    "entrySizeSol": 0.021164725560000004,
+    "createdAt": "2025-12-19T13:29:25.143Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 5.850325978675238e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T13:31:41.549Z",
+        "sellSignature": "5ewTdj95VAJs6xfhyFdTbd2ZSuCqCSbheHSzuyqrDF6Ha3Ad4NRnWS6dodmAr6TRSuszFkZvCvqTwCWpnSkwB1RD",
+        "realizedPriceSolPerToken": 5.982404400829401e-7,
+        "realizedSolProceeds": 0.016214006
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.020391174410286e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.360521565880381e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-19T13:39:33.331Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "4BcAP28PJFZnGuksxnRG6dYafnToZZ9orgqQA75TQXKc",
+    "entrySolPerToken": 2.3544818672366563e-7,
+    "entrySizeSol": 0.02102288948,
+    "createdAt": "2025-12-19T13:41:04.175Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.9431023340458205e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T13:44:48.710Z",
+        "sellSignature": "3bsugY7KwyKJKvHNNd686JCbj8kTB3AqnFH7ypZ96h3Y7FjDr27s5YTbXGy7Ttg8FxQGMXB4j1Bjjhb4v6mQDMS1",
+        "realizedPriceSolPerToken": 4.3750131000331744e-7,
+        "realizedSolProceeds": 0.023438384
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 3.5317228008549844e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T13:44:49.811Z",
+        "sellSignature": "2BMpk9E6jbFesBtcde4HCmTroAtp7xYMub2bmJW4fQMoXznjJvjiYwSwVaipfn1Pb5vvCaxdaoPXPAUJcWJ4jLrb",
+        "realizedPriceSolPerToken": 4.319917469712582e-7,
+        "realizedSolProceeds": 0.011571766
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 4.7089637344733127e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T13:45:38.539Z",
+        "sellSignature": "365zhkNpihLh3v2Csoq3wkbmiKuJMDh3pHvUkRrxD3kxJXvVXXpRDdNFb8MhKxEdCwWGcK2B8Jp67AmUPrZf1qMW",
+        "realizedPriceSolPerToken": 6.95438408457983e-7,
+        "realizedSolProceeds": 0.006209739
+      }
+    ],
+    "closedAt": "2025-12-19T13:45:39.057Z",
+    "realizedSolTotal": 0.041219889,
+    "pnlMultiple": 1.960714726641849,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "ofyMkMwnpmYMo7AzfeQkg8pfLdikYRXycuzVZqexqF7",
+    "entrySolPerToken": 4.677215642091171e-7,
+    "entrySizeSol": 0.0205108261,
+    "createdAt": "2025-12-19T13:42:32.506Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 5.846519552613964e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T13:44:31.973Z",
+        "sellSignature": "4zfxVnC7NNWy71H6gzM6neSAAY4t9xzkTzWcVzteFNwvPST36RoYhaDV4QBhiQ5bpwXPvrJvyjjY32TSiJuxmp4g",
+        "realizedPriceSolPerToken": 5.855035557587107e-7,
+        "realizedSolProceeds": 0.01537156
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.015823463136757e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T13:49:38.291Z",
+        "sellSignature": "j7ZokrZ8E34FpBEgpLHSTcQrCH9WKdL57KTd2uXKkDNofNn81NizpKq3QmUJZn1NP1BNhsN243QHWKNTeB3ckuN",
+        "realizedPriceSolPerToken": 7.1806951457886e-7,
+        "realizedSolProceeds": 0.009425945
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.354431284182342e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T13:59:54.682Z",
+        "sellSignature": "5KCPoHyVqz3zda6jPtNYvqmtGEgovjPqt63YD9nFxDaTtGrSpZkEiZL8YgCZU3P4nFAqDBZtw29LAxh4rwcdhoFB",
+        "realizedPriceSolPerToken": 9.471904091403032e-7,
+        "realizedSolProceeds": 0.004144522
+      }
+    ],
+    "closedAt": "2025-12-19T13:59:55.162Z",
+    "realizedSolTotal": 0.028942027,
+    "pnlMultiple": 1.4110610103607673,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "APNshA5emmzsSwyPmU79QMa7gEPT8v4KAGZaTFG4pump",
+    "entrySolPerToken": 1.7566325843780471e-7,
+    "entrySizeSol": 0.02138219764,
+    "createdAt": "2025-12-19T14:12:17.816Z",
+    "status": "OPEN",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.195790730472559e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6349488765670706e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5132651687560943e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "8eQXynz16oNnHNDAvxku2VKmc9qoMRcrdyKBieemVXmk",
+    "entrySolPerToken": 1.2028998872865394e-7,
+    "entrySizeSol": 0.02091103892,
+    "createdAt": "2025-12-19T16:14:23.269Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.5036248591081743e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T16:15:21.535Z",
+        "sellSignature": "41D5Ksd9Pcq3fMbZ7gLQro8rm2YpTP5xKXLGDYP4363vxMvDimPrB3MWiazNw5d4FFKs93YUmL1E3QCGgkCLCF1D",
+        "realizedPriceSolPerToken": 1.524039791079123e-7,
+        "realizedSolProceeds": 0.015807924
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.804349830929809e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T16:16:28.711Z",
+        "sellSignature": "5uN7RMAkqvGBUZH6Qb1bGgWSGFvUHSZnvRBUbwHXBDfjcdNTVV7wipxYfCHFtkWCeaDJAL9ujpmaotvGnW1pgopc",
+        "realizedPriceSolPerToken": 2.1007832493891413e-7,
+        "realizedSolProceeds": 0.010895212
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.4057997745730787e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T16:17:04.552Z",
+        "sellSignature": "3ZJ7k4GL7m3DcK6r1MQWZrRtZF3YcR5v3EzEsvNB1KPVaGdWbvii5U1w8JTTpK8ovsyu85hjCMbMcW1MH3KKQTJ9",
+        "realizedPriceSolPerToken": 2.6256086461904053e-7,
+        "realizedSolProceeds": 0.004539155
+      }
+    ],
+    "closedAt": "2025-12-19T16:17:05.035Z",
+    "realizedSolTotal": 0.031242291000000002,
+    "pnlMultiple": 1.4940573311313985,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "ADA6vcBrCtQJHhGPqd9miNhj85ebMSRvMWsqhaat8hdN",
+    "entrySolPerToken": 2.3303655537259846e-7,
+    "entrySizeSol": 0.0209885296,
+    "createdAt": "2025-12-19T16:17:53.859Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.912956942157481e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 3.495548330588977e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 4.660731107451969e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-19T16:27:59.988Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "FcgF5ZRD8Uf5Bt32f9oLbS4AyKvhAWZtJ4Uk89rbKFCz",
+    "entrySolPerToken": 1.5090594435451312e-7,
+    "entrySizeSol": 0.02047715342,
+    "createdAt": "2025-12-19T16:21:56.900Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.886324304431414e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T16:23:26.706Z",
+        "sellSignature": "21oaQ1exWGtkAfdbaLo5G5wM3ECQBZ9czBkL57yApiWHTEKBLe7yBHsLf9SdvZXrvKpPyNk8A7wGCtwZ8GHVYWr2",
+        "realizedPriceSolPerToken": 8.47379401724145e-8,
+        "realizedSolProceeds": 0.007070264
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.2635891653176968e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T16:24:00.446Z",
+        "sellSignature": "fC12DKZsszN5uFWEAh7rLtBXwFbbrtLb3qRzTg511pgAnpx7TZTncSHMqtL2UpLen1wF5Sg9Pd8bsKdk8azZdVo",
+        "realizedPriceSolPerToken": 2.440423992118998e-7,
+        "realizedSolProceeds": 0.010181198
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.0181188870902623e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T16:25:36.861Z",
+        "sellSignature": "5AFQivDK3NTbnnhRWCwpvGjgfEy2fz45FKsjzS74xCBXRbWe2oTbusRf23XtnVdUKeHco5nvM5JwfrhqNHVjkGD",
+        "realizedPriceSolPerToken": 2.993689781290584e-7,
+        "realizedSolProceeds": 0.004163235
+      }
+    ],
+    "closedAt": "2025-12-19T16:25:37.418Z",
+    "realizedSolTotal": 0.021414697000000003,
+    "pnlMultiple": 1.0457848588995922,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "5rASjH7cAUZNTqT2uJU1HypE8RAcEL6HcyksQNva7m7y",
+    "entrySolPerToken": 1.2611239475615424e-7,
+    "entrySizeSol": 0.02059899858,
+    "createdAt": "2025-12-19T16:41:09.532Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.576404934451928e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T16:43:30.364Z",
+        "sellSignature": "5bHh58SByWVKus3Wjkek3CkGkgd4ZbYhuUfEKuNvDvQ44A99y2fq5QWtZzrUtAqTdH2S1sibBw99gveEJCRevYft",
+        "realizedPriceSolPerToken": 1.7239732204142614e-7,
+        "realizedSolProceeds": 0.016805185
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.8916859213423134e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T16:43:48.226Z",
+        "sellSignature": "4fFyeYgFqhojhgHLYtbkHH18HuQmqjNwX3tzP3UWXMsEDUAdc6MTxAKEN4EaEwWcgnbLu45mwAWVfNUZXoqY61kL",
+        "realizedPriceSolPerToken": 1.9771581950773704e-7,
+        "realizedSolProceeds": 0.009636739
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.522247895123085e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T16:44:36.873Z",
+        "sellSignature": "Q7fj4y6CBqoM3eepYri234DHZUCcfgzKTksaYFBxbdsFDJZ6dqJ2cryZdfnbEqBKc9N25jCe4xzzC9DAtxL3fW2",
+        "realizedPriceSolPerToken": 1.6418282002466106e-7,
+        "realizedSolProceeds": 0.002667515
+      }
+    ],
+    "closedAt": "2025-12-19T16:44:37.366Z",
+    "realizedSolTotal": 0.029109438999999997,
+    "pnlMultiple": 1.4131482599480814,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "3cokDBgXSdhgj7iEtrVUW4vFRFQFpuNBXAqc9dk5ZERH",
+    "entrySolPerToken": 1.2861456160055093e-7,
+    "entrySizeSol": 0.020718871280000002,
+    "createdAt": "2025-12-19T16:56:32.476Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 1.6076820200068866e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T16:59:06.322Z",
+        "sellSignature": "48wVhM8jVG1Zj6cbs2Fxrkv2r5vGg9FTKNqwQSvwFZDGkJ1kqkcGbvYSRq8y25imz2xipGwohoCig2eb6w4XZ9cx",
+        "realizedPriceSolPerToken": 1.6244853520622135e-7,
+        "realizedSolProceeds": 0.015552141
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.929218424008264e-7,
+        "fraction": 0.75,
+        "hit": true,
+        "hitAt": "2025-12-19T17:00:58.516Z",
+        "sellSignature": "5tEuXQZKJJzcD2Gf4mWMwrgSuxgid5Fj58CqbeMLkm2UZmcvK9CjAhieUvDtj2sBKMTpeccPS1UXQRhmGBNcCsNy",
+        "realizedPriceSolPerToken": 1.9880165454781726e-7,
+        "realizedSolProceeds": 0.009516347
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.5722912320110185e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-19T17:05:30.188Z",
+        "sellSignature": "38iHJqXtLfkDnjLJsygjwXogQYvfhzRJ8wwmcXZExKzgpEM9qo163rU5ZLD9Sw3zVrKj5xbuyyJrzm4E7f32A9Cv",
+        "realizedPriceSolPerToken": 2.684323710633337e-7,
+        "realizedSolProceeds": 0.004283272
+      }
+    ],
+    "closedAt": "2025-12-19T17:05:30.698Z",
+    "realizedSolTotal": 0.02935176,
+    "pnlMultiple": 1.4166679064381926,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "9qJY9XGxWoxiCQe53yc4pdBD18DA4y8kGAzTUWrFpump",
+    "entrySolPerToken": 3.2144891659970605e-7,
+    "entrySizeSol": 0.02025827208,
+    "createdAt": "2025-12-19T17:21:09.893Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 4.0181114574963257e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.82173374899559e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 6.428978331994121e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-19T17:31:15.899Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "AnF14CVNvwtAdKeLA9puLW11FQAXSBnhCMtLb4dYpump",
+    "entrySolPerToken": 2.9831774539797426e-7,
+    "entrySizeSol": 0.01981022104,
+    "createdAt": "2025-12-19T17:23:39.252Z",
+    "status": "CLOSED",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 3.728971817474678e-7,
+        "fraction": 0.6
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.474766180969614e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.966354907959485e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-19T17:34:27.247Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after extended time; marking as dead token / loss."
+  },
+  {
+    "mint": "PA9RwUVMsDHurj1YZ2Wi24jwSRs6tXDz9Fnv3arpump",
+    "entrySolPerToken": 1.7234298869279863e-7,
+    "entrySizeSol": 0.01937113102,
+    "createdAt": "2025-12-19T17:31:43.340Z",
+    "status": "OPEN",
+    "ladders": [
+      {
+        "multiple": 1.25,
+        "targetSolPerToken": 2.154287358659983e-7,
+        "fraction": 0.6,
+        "hit": true,
+        "hitAt": "2025-12-19T17:37:23.581Z",
+        "sellSignature": "2Q1S74io7CsjQebCLAtAMS7mbrgB89MkoANnx3mLCiQ5UrhfCHQvzwnYeXgosFrpibUjtejsLN4G5SJ3w5PZzxMW",
+        "realizedPriceSolPerToken": 2.1928255702398263e-7,
+        "realizedSolProceeds": 0.014788247
+      },
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.5851448303919794e-7,
+        "fraction": 0.75
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.4468597738559726e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "EXPY4VnK3TPDJQ8fNXXFxK1VC9uBDFaXQRYhV8Bsut7W",
+    "entrySolPerToken": 1.4932020334255488e-7,
+    "entrySizeSol": 0.020611868279999997,
+    "createdAt": "2025-12-28T00:51:01.366Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.2398030501383233e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.9864040668510976e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 5.972808133702195e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T01:01:44.742Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 643s; marking dead."
+  },
+  {
+    "mint": "CWxXtaq3JjmvjKbdEhkXLnearTLgXTmH9v3Ya5G3SERi",
+    "entrySolPerToken": 0.0000010968241942564017,
+    "entrySizeSol": 0.02010802532,
+    "createdAt": "2025-12-28T01:16:52.554Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000016452362913846025,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.0000021936483885128033,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000004387296777025607,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T01:26:59.403Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 607s; marking dead."
+  },
+  {
+    "mint": "6Cg9CABbrCVvNxvUK7LuqaBaG6TbAqctD82FUtSGAHNt",
+    "entrySolPerToken": 4.60532433066482e-7,
+    "entrySizeSol": 0.01966087922,
+    "createdAt": "2025-12-28T03:45:55.169Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 6.90798649599723e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T03:51:32.511Z",
+        "hit": true,
+        "hitAt": "2025-12-28T03:51:34.523Z",
+        "sellSignature": "2jfPy1JUdSutQJxmqifT4DA9pf9RxfDG5sWZvRkehmrDULGJA4PLDRT1JtYyCx5Gt8dxB7rWKZ8JWEqwUDhx46TG",
+        "realizedPriceSolPerToken": 6.94661344964136e-7,
+        "realizedSolProceeds": 0.011799611
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.21064866132964e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000001842129732265928,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.2368983842116347e-7,
+    "beStopArmedAt": "2025-12-28T03:51:35.014Z",
+    "closedAt": "2025-12-28T03:56:05.111Z",
+    "realizedSolTotal": 0.011799611,
+    "pnlMultiple": 0.6001568326607115,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 610s; marking dead."
+  },
+  {
+    "mint": "92GYhV6BosUS4z38pCKcvpjSoLKDbWMhCJDszschS8HD",
+    "entrySolPerToken": 4.528892550856294e-7,
+    "entrySizeSol": 0.0194606379,
+    "createdAt": "2025-12-28T04:45:29.537Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 6.793338826284441e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T04:51:08.921Z",
+        "hit": true,
+        "hitAt": "2025-12-28T04:51:10.124Z",
+        "sellSignature": "5ijeS1gWcYSqHYijhR5V9k26XrWHSdp2zcL6UqFHJKJBSzGnFpkPgjTuwCQJYa4AEJB3aqfqzjhGEG7z5WWbtdGY",
+        "realizedPriceSolPerToken": 6.84239184669422e-7,
+        "realizedSolProceeds": 0.011754099
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.057785101712588e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T05:01:18.944Z",
+        "hit": true,
+        "hitAt": "2025-12-28T05:01:20.811Z",
+        "sellSignature": "31KiypTboKUPSncvX6FTivYswxEkxcy12RbfxzMJuyVXbZ4G2z8n3spNaTqvsG6SMVaL3FeYZ9jg8GFuwFUYmMPC",
+        "realizedPriceSolPerToken": 9.15375318452053e-7,
+        "realizedSolProceeds": 0.015724636
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000018115570203425176,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.166581146787791e-7,
+    "beStopArmedAt": "2025-12-28T04:51:10.612Z",
+    "closedAt": "2025-12-28T05:02:24.989Z",
+    "realizedSolTotal": 0.027478735,
+    "pnlMultiple": 1.4120161497892112,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1015s; marking dead."
+  },
+  {
+    "mint": "DtCnDkxKhk1EzpkTqcteh41v6CX8ve5kvqP5QmyCbaya",
+    "entrySolPerToken": 1.707815528408368e-7,
+    "entrySizeSol": 0.01957869508,
+    "createdAt": "2025-12-28T05:18:18.893Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.561723292612552e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.415631056816736e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.831262113633472e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T05:28:19.801Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 601s; marking dead."
+  },
+  {
+    "mint": "HDHyyquooaVQRQVLomtxVLkfBxHLPZTiruvpdGCqPEmD",
+    "entrySolPerToken": 1.0624067317759315e-7,
+    "entrySizeSol": 0.01914423558,
+    "createdAt": "2025-12-28T05:48:30.725Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.5936100976638972e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T06:06:19.353Z",
+        "hit": true,
+        "hitAt": "2025-12-28T06:06:20.225Z",
+        "sellSignature": "5yv7G4M3cDbGnMQRcNBTf6kyCwyFw9aKiHo4VymQzyBQpmZuPxw7aL7VGcr4289HUJK4obUrEKn5KRo7yMYzDE2b",
+        "realizedPriceSolPerToken": 1.9974079131029445e-7,
+        "realizedSolProceeds": 0.014220139
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.124813463551863e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T06:07:24.885Z",
+        "hit": true,
+        "hitAt": "2025-12-28T06:07:27.643Z",
+        "sellSignature": "2V1LdX2T3zTMwHspxF1rA3X6hotvwTi354t6gkMoSb2ar9j8ovKkhaEu4ZHby91eLHijhqYX8uVgoLuev7vd7TY9",
+        "realizedPriceSolPerToken": 2.329812108724859e-7,
+        "realizedSolProceeds": 0.016586623
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 4.249626927103726e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 9.77414193233857e-8,
+    "beStopArmedAt": "2025-12-28T06:06:20.710Z",
+    "closedAt": "2025-12-28T06:18:36.514Z",
+    "realizedSolTotal": 0.030806762,
+    "pnlMultiple": 1.609192588090791,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1806s; marking dead."
+  },
+  {
+    "mint": "73Jy3qSLmTdbitoDLooesuEtZA4een9vPwZ3VZcJrzgT",
+    "entrySolPerToken": 4.733754554853842e-7,
+    "entrySizeSol": 0.01934534542,
+    "createdAt": "2025-12-28T06:36:02.287Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.100631832280763e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.467509109707684e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000018935018219415367,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T06:46:06.816Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 605s; marking dead."
+  },
+  {
+    "mint": "6Y9VFwPyJ6B3vjKtiahFQLV8ZBSpvicJJR4emw5oTJiV",
+    "entrySolPerToken": 4.671593611121735e-7,
+    "entrySizeSol": 0.018915552920000002,
+    "createdAt": "2025-12-28T07:30:41.106Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.007390416682603e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T07:35:06.278Z",
+        "hit": true,
+        "hitAt": "2025-12-28T07:35:06.973Z",
+        "sellSignature": "X7WaM322QndRtiEntFcvExHVyZw6vmGWGqSD3L4X82gaUmQHKKCs7pqppxwSetAh8G4t3q7Qd3jGhQmfGXYckTu",
+        "realizedPriceSolPerToken": 7.045206187915314e-7,
+        "realizedSolProceeds": 0.011375987
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.34318722224347e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T07:41:59.868Z",
+        "hit": true,
+        "hitAt": "2025-12-28T07:42:01.346Z",
+        "sellSignature": "4jh3WrMjmZy8VB2PWLrVbJxPCU2EdVpXPeLwiAPtqjHBzctqV2473QKJAxFNAdoRhKDyMu45RsiruwP1hoVBuYT4",
+        "realizedPriceSolPerToken": 9.445315473678303e-7,
+        "realizedSolProceeds": 0.015251475
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000001868637444448694,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T07:59:46.407Z",
+        "hit": true,
+        "hitAt": "2025-12-28T07:59:50.020Z",
+        "sellSignature": "hcP8JNr4Q2vggJDZtAczkFVJH3q14mxPSWZp7kiiHJhbHtM5cKpvGDXxqMcDq3vPF6BNJeWxDjWrf2s6nyb99ST",
+        "realizedPriceSolPerToken": 0.000001885103877651038,
+        "realizedSolProceeds": 0.01521951
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.297866122231996e-7,
+    "beStopArmedAt": "2025-12-28T07:35:07.459Z",
+    "closedAt": "2025-12-28T07:59:50.505Z",
+    "realizedSolTotal": 0.041846972,
+    "pnlMultiple": 2.212304983998321,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "BHeFHJTAGUz9DTUvT6tkMbwjaJKnjEMKot2h38aMvnvY",
+    "entrySolPerToken": 4.5774877998143764e-7,
+    "entrySizeSol": 0.0193315316,
+    "createdAt": "2025-12-28T10:58:38.669Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 6.866231699721564e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T11:03:35.760Z",
+        "hit": true,
+        "hitAt": "2025-12-28T11:03:40.017Z",
+        "sellSignature": "4nkTEdK4WqWNPa4N7UHSxnnMhdY9m2VtJLhcMmMtnD2Re9FLMisEoAVfe9qcBLx5YdQHWnbzr98GVdcBX5nNjYCq",
+        "realizedPriceSolPerToken": 6.897668909138409e-7,
+        "realizedSolProceeds": 0.011590491
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.154975599628753e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T11:15:03.718Z",
+        "hit": true,
+        "hitAt": "2025-12-28T11:15:06.371Z",
+        "sellSignature": "2jqsZSi6Eyeu5rRAMvNuTFgR9f2XB6ZmDqMjVm9zG6CZ2BGHjHaPRNw78uoF9KJ5UT5BTbjJcza8oNuVaA5Jm7cJ",
+        "realizedPriceSolPerToken": 9.306264991264898e-7,
+        "realizedSolProceeds": 0.015637773
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000018309951199257506,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.2112887758292264e-7,
+    "beStopArmedAt": "2025-12-28T11:03:40.508Z",
+    "closedAt": "2025-12-28T11:23:23.388Z",
+    "realizedSolTotal": 0.027228264000000002,
+    "pnlMultiple": 1.4084897442890663,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1485s; marking dead."
+  },
+  {
+    "mint": "BpMidBgE2gVMUaKbzkgRp7Cb4tTcfGqrmvvpkHU3kmKZ",
+    "entrySolPerToken": 1.1722455457540619e-7,
+    "entrySizeSol": 0.01913442922,
+    "createdAt": "2025-12-28T11:14:44.231Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.7583683186310927e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.3444910915081237e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 4.6889821830162474e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T11:24:59.409Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 615s; marking dead."
+  },
+  {
+    "mint": "3GcVKMNLu36X6jZN1Be7xw8767MvjKUJQ211GrscHNw2",
+    "entrySolPerToken": 0.002627867443012336,
+    "entrySizeSol": 0.01901512268,
+    "createdAt": "2025-12-28T11:43:30.104Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.003941801164518504,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.005255734886024672,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.010511469772049344,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T12:07:24.453Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1434s; marking dead."
+  },
+  {
+    "mint": "FHeDocjjz4nKZLY7xdFiMUe44eNxhYAXcfhyaUfZTMSm",
+    "entrySolPerToken": 4.6482630064294844e-7,
+    "entrySizeSol": 0.018591934640000002,
+    "createdAt": "2025-12-28T11:56:08.994Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 6.972394509644226e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T11:59:33.089Z",
+        "hit": true,
+        "hitAt": "2025-12-28T11:59:38.020Z",
+        "sellSignature": "4weeRTLuDa3KyvqW1CHLBPnj8hRGjEH7mgy5MLP4VDv7kAXcbyccuuVkNxxb7eep7nDrARnTxv5ZawTy7M7sWa9q",
+        "realizedPriceSolPerToken": 7.07991053209446e-7,
+        "realizedSolProceeds": 0.011292751
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.296526012858969e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T12:06:18.985Z",
+        "hit": true,
+        "hitAt": "2025-12-28T12:06:20.540Z",
+        "sellSignature": "5euJgDTUpEsEJF8e3xdJYb9SThQNE5HcbrQoQz5AeyHGKgLRjakKf5StXjGY8urgkYFhapuYSsehi2sM8iWyaE8N",
+        "realizedPriceSolPerToken": 9.309967264224147e-7,
+        "realizedSolProceeds": 0.014849784
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000018593052025717938,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.276401965915126e-7,
+    "beStopArmedAt": "2025-12-28T11:59:38.515Z",
+    "closedAt": "2025-12-28T12:22:29.980Z",
+    "realizedSolTotal": 0.026142535,
+    "pnlMultiple": 1.4061223593027863,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1581s; marking dead."
+  },
+  {
+    "mint": "8oU9gQEuQoRdrSK9cX5jEdfd5edQ8GeUUDYhgjrYpump",
+    "entrySolPerToken": 1.7124252182767346e-7,
+    "entrySizeSol": 0.01870244224,
+    "createdAt": "2025-12-28T15:20:56.225Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.5686378274151016e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.424850436553469e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.849700873106938e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "2oiz2s9cwEVQoGNCiGunvCTz7ehS8MKbuR5B8QymQ28j",
+    "entrySolPerToken": 1.544300697812392e-7,
+    "entrySizeSol": 0.01828550786,
+    "createdAt": "2025-12-28T15:28:30.074Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.3164510467185882e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.088601395624784e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.177202791249568e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T15:53:09.587Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1480s; marking dead."
+  },
+  {
+    "mint": "91WEk6vjdVPnngJADSS6UiYdgQtG1LdCAMhKRcHVqywH",
+    "entrySolPerToken": 1.7884310752410095e-7,
+    "entrySizeSol": 0.01787691212,
+    "createdAt": "2025-12-28T15:51:40.172Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.682646612861514e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T15:59:00.180Z",
+        "hit": true,
+        "hitAt": "2025-12-28T15:59:00.849Z",
+        "sellSignature": "9v84AaSRGDGmaBnRDokqeyPV8rw9AU9DCZbuHDiWB1FDoxQvvaJbJB28fX7WiELYTM9kKZuYbvUWuVpPAryyFkn",
+        "realizedPriceSolPerToken": 2.763913664554822e-7,
+        "realizedSolProceeds": 0.011051081
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.576862150482019e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.153724300964038e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6453565892217288e-7,
+    "beStopArmedAt": "2025-12-28T15:59:01.341Z",
+    "closedAt": "2025-12-28T16:01:42.222Z",
+    "realizedSolTotal": 0.011051081,
+    "pnlMultiple": 0.6181761663210548,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 602s; marking dead."
+  },
+  {
+    "mint": "4YLM8eXBMdoPf6mVYQwTANQA3unZ7q7Qx1zA8zReeBuw",
+    "entrySolPerToken": 1.797937315318168e-7,
+    "entrySizeSol": 0.01769714624,
+    "createdAt": "2025-12-28T16:39:34.453Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6969059729772517e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T16:42:40.344Z",
+        "hit": true,
+        "hitAt": "2025-12-28T16:42:41.848Z",
+        "sellSignature": "31ndm3KC5cRrWU5stg9g2pQxwzVpCPyzX7J4aaX6KTSCaE7xPUjERYhj27hpGaqN4Gsarab8Xr2rjL5CZW2qNkkJ",
+        "realizedPriceSolPerToken": 2.716458867153097e-7,
+        "realizedSolProceeds": 0.010637314
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.595874630636336e-7,
+        "fraction": 0.6666666667,
+        "hit": true,
+        "hitAt": "2025-12-28T16:44:03.974Z",
+        "sellSignature": "2JWxw8SjyBeoxijVMKguhu5gKh63P4n2u7FfX299wgsUeXTxsb7tLQS8r7SDL6Srcd8Zvo9bEcGo3oyTLtmtHMbM",
+        "realizedPriceSolPerToken": 1.599104064093549e-7,
+        "realizedSolProceeds": 0.009392838
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.191749261272672e-7,
+        "fraction": 1,
+        "attemptCount": 3,
+        "lastAttemptAt": "2025-12-28T16:50:46.473Z"
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6541023300927146e-7,
+    "beStopArmedAt": "2025-12-28T16:42:42.346Z",
+    "beStopAttemptCount": 1,
+    "beStopLastAttemptAt": "2025-12-28T16:44:02.317Z",
+    "beStopTriggered": true,
+    "beStopTriggerTx": "2JWxw8SjyBeoxijVMKguhu5gKh63P4n2u7FfX299wgsUeXTxsb7tLQS8r7SDL6Srcd8Zvo9bEcGo3oyTLtmtHMbM",
+    "closedAt": "2025-12-28T16:51:03.172Z",
+    "realizedSolTotal": 0.020030152000000002,
+    "pnlMultiple": 1.1318294898149637,
+    "outcome": "WIN",
+    "notes": "[TP] Max sell attempts reached for ladder 4x (3)."
+  },
+  {
+    "mint": "283QqLjSS1nw8TrFzqsYya6uWmBZPAsmEtM2VTvEASwT",
+    "entrySolPerToken": 1.7752636391728019e-7,
+    "entrySizeSol": 0.017307429960000002,
+    "createdAt": "2025-12-28T17:12:20.871Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.662895458759203e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5505272783456037e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.101054556691207e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-28T17:22:28.746Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 608s; marking dead."
+  },
+  {
+    "mint": "ENWHe44oZuNXkbukGBDWHF1VWeSZ9trzFyUTW44Rc3oC",
+    "entrySolPerToken": 1.8200074846193477e-7,
+    "entrySizeSol": 0.01691839578,
+    "createdAt": "2025-12-28T17:42:52.805Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.7300112269290214e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T17:46:53.879Z",
+        "hit": true,
+        "hitAt": "2025-12-28T17:46:54.601Z",
+        "sellSignature": "4ZLUKgvYgZfKitjuTSdiTzJi7HsYmauhuxN5QeAhaPPNkfptKE1dxvmHDW1fwJp1up45b7Ad4hMWnVs4D79eFidS",
+        "realizedPriceSolPerToken": 2.752005254856549e-7,
+        "realizedSolProceeds": 0.010208
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.6400149692386953e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T17:48:36.193Z",
+        "hit": true,
+        "hitAt": "2025-12-28T17:48:38.108Z",
+        "sellSignature": "rGtum2TZsPvabURPqZ31BdqMdrQoR5BrPZ3RL4tNL54hYogQGBKztYUtui8Dn6axhi1unrYwghW1MCDeDZtsJEr",
+        "realizedPriceSolPerToken": 3.8539773901885707e-7,
+        "realizedSolProceeds": 0.01429554
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.280029938477391e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6744068858498e-7,
+    "beStopArmedAt": "2025-12-28T17:46:55.094Z",
+    "closedAt": "2025-12-28T17:52:58.291Z",
+    "realizedSolTotal": 0.02450354,
+    "pnlMultiple": 1.448337083411108,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 605s; marking dead."
+  },
+  {
+    "mint": "5sFELS7WfNDVJfk8jMHMk6fLFWE8cKEtiBwEJbMtGNVH",
+    "entrySolPerToken": 2.8068367270159636e-7,
+    "entrySizeSol": 0.01653714232,
+    "createdAt": "2025-12-28T17:45:25.386Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.2102550905239457e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T17:48:16.522Z",
+        "hit": true,
+        "hitAt": "2025-12-28T17:48:19.368Z",
+        "sellSignature": "2gC9XzfDg8Wq1vCq3BVpCaj2BWRG61xti5QMGxX5LRJxm8jsbiV3XuMvfzuzDPc8UZW53sgkxde1zGgfwUCQTDrR",
+        "realizedPriceSolPerToken": 4.48066416722634e-7,
+        "realizedSolProceeds": 0.010559557
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.613673454031927e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T17:51:19.487Z",
+        "hit": true,
+        "hitAt": "2025-12-28T17:51:20.952Z",
+        "sellSignature": "2GHUMA24RKuLEbAmWZKmZaQjEUUtbKAxDkLzuWgtRQCgDkxYgcbTErEbmAXWzf9UHdMdoNauCSsVYUi61ELtDSLC",
+        "realizedPriceSolPerToken": 5.935436887673326e-7,
+        "realizedSolProceeds": 0.013988012
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000011227346908063854,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 2.5822897888546866e-7,
+    "beStopArmedAt": "2025-12-28T17:48:19.871Z",
+    "closedAt": "2025-12-28T18:00:44.212Z",
+    "realizedSolTotal": 0.024547568999999998,
+    "pnlMultiple": 1.4843900188433523,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 919s; marking dead."
+  },
+  {
+    "mint": "C9Ma35trPwsVrRb6sscek1TAfrLCs98sCnz7Sy3Hd6bD",
+    "entrySolPerToken": 1.8365539980233148e-7,
+    "entrySizeSol": 0.0171465159,
+    "createdAt": "2025-12-28T18:32:57.713Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.7548309970349723e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T18:36:47.274Z",
+        "hit": true,
+        "hitAt": "2025-12-28T18:36:51.294Z",
+        "sellSignature": "2Go3E54X7rKJkKVo79b6qDJfEHXHvZnewBjM25kVKSLuqziAHHQB8mNfQ3WbooPCPMVKvhzM76cEiD82vtDVdoVP",
+        "realizedPriceSolPerToken": 2.846326963418648e-7,
+        "realizedSolProceeds": 0.010629601
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.6731079960466295e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T18:38:28.589Z",
+        "hit": true,
+        "hitAt": "2025-12-28T18:38:29.501Z",
+        "sellSignature": "2YnPxjJpunYptxHNz3WFdWgEscMqSB5vJ1UU9QU7ReLykNh7Ayr8tMhAZuMDgJRQBp3WptBfsje5m64phDd3mxbN",
+        "realizedPriceSolPerToken": 3.688755423544466e-7,
+        "realizedSolProceeds": 0.013775648
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.346215992093259e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T18:43:33.375Z",
+        "hit": true,
+        "hitAt": "2025-12-28T18:43:37.709Z",
+        "sellSignature": "jTp5JPPNrkt84vKk3XC6TZ1KzGnepUXKBkXJ7tXfx2EjRAB6Jwv8vt6DsrNVqkoJw6FQfEMdbsVDTXBq6vhB4cw",
+        "realizedPriceSolPerToken": 7.400145218454806e-7,
+        "realizedSolProceeds": 0.013817912
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6896296781814496e-7,
+    "beStopArmedAt": "2025-12-28T18:36:51.790Z",
+    "closedAt": "2025-12-28T18:43:38.195Z",
+    "realizedSolTotal": 0.038223161,
+    "pnlMultiple": 2.2292086172445096,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "GtP5YLFxH8vWjSSBMchcBnocC2RXw4U2jK4pK8M2ZVwd",
+    "entrySolPerToken": 2.2367769850711192e-7,
+    "entrySizeSol": 0.0170863895,
+    "createdAt": "2025-12-28T20:26:24.996Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 3.355165477606679e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T20:50:38.655Z",
+        "hit": true,
+        "hitAt": "2025-12-28T20:50:40.316Z",
+        "sellSignature": "GFthAquTXrsmfnaoBoSSuqpi5WdzLWyMnqKwY1hYY2AoYDbtLsNY5zNRBBU7hG11G9NP8qQXxELAr6msE4AkZEm",
+        "realizedPriceSolPerToken": 3.330195368450557e-7,
+        "realizedSolProceeds": 0.01017465
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 4.4735539701422384e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T21:09:37.076Z",
+        "hit": true,
+        "hitAt": "2025-12-28T21:09:37.781Z",
+        "sellSignature": "4uHs44F5iX5A8jjgSomyHHYXzyTPqv43vHeup9T4kMLUbNcw8ERPFRC9YVZJiaSkTFKn3qsqKH761KjRXz9mER8E",
+        "realizedPriceSolPerToken": 4.484103734790258e-7,
+        "realizedSolProceeds": 0.013700153
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 8.947107940284477e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 2.0578348262654298e-7,
+    "beStopArmedAt": "2025-12-28T20:50:40.805Z",
+    "closedAt": "2025-12-28T23:44:14.729Z",
+    "realizedSolTotal": 0.023874803,
+    "pnlMultiple": 1.3972994704352257,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 11870s; marking dead."
+  },
+  {
+    "mint": "7nwDtvaSzyMgn74EAJhSUX9sqUBdApzt9ARVMGPusU5F",
+    "entrySolPerToken": 1.7548484101805932e-7,
+    "entrySizeSol": 0.01690327502,
+    "createdAt": "2025-12-28T21:06:51.189Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.63227261527089e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T21:10:43.153Z",
+        "hit": true,
+        "hitAt": "2025-12-28T21:10:47.590Z",
+        "sellSignature": "2wdZUoggT5PptG11F89DPXPPJWEAxs58vQWPHRNxf3GPqmxeWP5ktdHBwVqiQajTkHcpFtxtrYFnJmpufsfvQhdS",
+        "realizedPriceSolPerToken": 2.755545963730157e-7,
+        "realizedSolProceeds": 0.010557713
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5096968203611863e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T21:14:33.261Z",
+        "hit": true,
+        "hitAt": "2025-12-28T21:14:34.459Z",
+        "sellSignature": "3mQUMe9FQhWzpwfQYSWZFP5UT38chjxcBVqZCaUaRU51FLB6C3J6jD1afsPrK3nnxkEPpVzm5UpmfbJrzGMVGtTf",
+        "realizedPriceSolPerToken": 3.711210575844341e-7,
+        "realizedSolProceeds": 0.014219286
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.019393640722373e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T21:18:20.636Z",
+        "hit": true,
+        "hitAt": "2025-12-28T21:18:25.572Z",
+        "sellSignature": "2tHCAekb2wSSmS8Ray1NpPmP9p8YNQ5QKY2Jbbe1ZRcUkBEjy2ssjgnVC5vjPqZHHbQ98RE3Ce49jKh9sDMNWQBp",
+        "realizedPriceSolPerToken": 7.072040226745354e-7,
+        "realizedSolProceeds": 0.013548054
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.614460537366146e-7,
+    "beStopArmedAt": "2025-12-28T21:10:48.094Z",
+    "closedAt": "2025-12-28T21:18:26.099Z",
+    "realizedSolTotal": 0.038325053,
+    "pnlMultiple": 2.2673152365239098,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "BQXhwwAVto2ZfvU3Z2rx8NdQ726VnEbXXzKNKtGEYM4J",
+    "entrySolPerToken": 3.003860112752099e-7,
+    "entrySizeSol": 0.01757100608,
+    "createdAt": "2025-12-28T21:43:38.424Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.5057901691281483e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T21:44:49.300Z",
+        "hit": true,
+        "hitAt": "2025-12-28T21:44:51.134Z",
+        "sellSignature": "34dikHnnAtyQGJh1ng4SsdSJH2CKfeooJjZY6temVjpxWwHoDBDbzwNwEfFd8wtFWRPwUKWiKbgYoFB98YzHLPj",
+        "realizedPriceSolPerToken": 4.624169309645335e-7,
+        "realizedSolProceeds": 0.010819586
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 6.007720225504198e-7,
+        "fraction": 0.6666666667,
+        "hit": true,
+        "hitAt": "2025-12-28T21:49:17.783Z",
+        "sellSignature": "5gT2mPBwcCJDRc35pj3y71ByGuGS7qkfsEVb4wn3d56dzd2Yzcrjw28xaVdu5JXTYiqeMKzQn6rpqixZoBkEbpgQ",
+        "realizedPriceSolPerToken": 2.6683922427704485e-7,
+        "realizedSolProceeds": 0.009365217
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000012015440451008395,
+        "fraction": 1,
+        "attemptCount": 3,
+        "lastAttemptAt": "2025-12-28T21:54:07.461Z"
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 2.763551303731931e-7,
+    "beStopArmedAt": "2025-12-28T21:44:51.631Z",
+    "beStopAttemptCount": 3,
+    "beStopLastAttemptAt": "2025-12-28T21:49:17.127Z",
+    "beStopTriggered": true,
+    "beStopTriggerTx": "5gT2mPBwcCJDRc35pj3y71ByGuGS7qkfsEVb4wn3d56dzd2Yzcrjw28xaVdu5JXTYiqeMKzQn6rpqixZoBkEbpgQ",
+    "closedAt": "2025-12-28T21:54:24.201Z",
+    "realizedSolTotal": 0.020184803,
+    "pnlMultiple": 1.148756246972968,
+    "outcome": "WIN",
+    "notes": "[TP] Max sell attempts reached for ladder 4x (3)."
+  },
+  {
+    "mint": "84nSzPqnMdwJpM4KdXuuv8jE3SP5psi8ZNj54FRuaxqt",
+    "entrySolPerToken": 1.5161937362853937e-7,
+    "entrySizeSol": 0.017580195240000002,
+    "createdAt": "2025-12-28T22:47:46.428Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.2742906044280908e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T22:49:22.275Z",
+        "hit": true,
+        "hitAt": "2025-12-28T22:49:24.305Z",
+        "sellSignature": "4Z6wNL4gUcZnvDQJeECGjWky2pC5iqqpANFxdx2KFr9hzdWcURngxHcjiSJJNMV5SwYBTmJ61zMzLhEEaMdpZQXM",
+        "realizedPriceSolPerToken": 2.4970379302193213e-7,
+        "realizedSolProceeds": 0.011887099
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.0323874725707875e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T22:52:37.740Z",
+        "hit": true,
+        "hitAt": "2025-12-28T22:52:38.972Z",
+        "sellSignature": "3xFEYwxTimACiTLp2k3Y6mtwdUXXTG9NbBEZAuv4r2ZWwadotE3HNkEEm8xAShmEbABut32HUU9P3vv6suEv5Mzx",
+        "realizedPriceSolPerToken": 3.1336577734596885e-7,
+        "realizedSolProceeds": 0.014917715
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.064774945141575e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T22:57:13.300Z",
+        "hit": true,
+        "hitAt": "2025-12-28T22:57:14.354Z",
+        "sellSignature": "Up1JVV6CwvPrVYkNk1tbko8AacukLqcuxAwFyVHnCC2eF5H2DUv8DCurBLzCCirZhyfHeYhdiKWKEXuPv2K6Bbk",
+        "realizedPriceSolPerToken": 6.147732647192052e-7,
+        "realizedSolProceeds": 0.014633079
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.3948982373825624e-7,
+    "beStopArmedAt": "2025-12-28T22:49:24.795Z",
+    "closedAt": "2025-12-28T22:57:14.837Z",
+    "realizedSolTotal": 0.041437893,
+    "pnlMultiple": 2.3570780889689367,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "CNKTt6yedD2z9GZBRNA2KfcE8pcKJPjDfQ32uUwtnJ8k",
+    "entrySolPerToken": 1.5339407920149746e-7,
+    "entrySizeSol": 0.01801569806,
+    "createdAt": "2025-12-28T23:16:27.643Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.3009111880224618e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T23:18:33.976Z",
+        "hit": true,
+        "hitAt": "2025-12-28T23:18:34.928Z",
+        "sellSignature": "63msry3Nsk3sWHXqifWoBr9nDBHFvcTy9sMBDecaSKEYajh7qbcK6Nt5keYUgUCnH6Sebw9sMkyvh7jtrp47G8Pq",
+        "realizedPriceSolPerToken": 2.4970335405556855e-7,
+        "realizedSolProceeds": 0.011995359
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.0678815840299493e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T23:19:56.759Z",
+        "hit": true,
+        "hitAt": "2025-12-28T23:19:58.590Z",
+        "sellSignature": "3FvXvGp4xgw7fierSBzTnjcqhXqHTDhcsB9vYatoeMcPVX3tMLv6P3cJb2hADSdsQ68GJCtKkd4gSWGDNC7ncU5A",
+        "realizedPriceSolPerToken": 3.089205588480356e-7,
+        "realizedSolProceeds": 0.014840061
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.135763168059899e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-28T23:25:53.022Z",
+        "hit": true,
+        "hitAt": "2025-12-28T23:25:53.923Z",
+        "sellSignature": "3JFR5kiyAbqeKcSAHneiypriXWM5ajmPzcawVMmRGmvAeS6RXbRVFxJ7LCTCCeuATUMZc7ssLM5boihJnPk78rfw",
+        "realizedPriceSolPerToken": 6.251493071559809e-7,
+        "realizedSolProceeds": 0.015015598
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.4112255286537767e-7,
+    "beStopArmedAt": "2025-12-28T23:18:35.420Z",
+    "closedAt": "2025-12-28T23:25:54.401Z",
+    "realizedSolTotal": 0.041851018,
+    "pnlMultiple": 2.3230306070082967,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "AsyeUAC6ctgUXyRC7ZRMSku57L9wL7TCzhMYxBgreXFw",
+    "entrySolPerToken": 1.7550503464381762e-7,
+    "entrySizeSol": 0.0184509393,
+    "createdAt": "2025-12-29T00:13:33.335Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6325755196572646e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5101006928763524e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.020201385752705e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T00:23:45.987Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 613s; marking dead."
+  },
+  {
+    "mint": "ADrcwy56e3D7gKiuQjPrVkqEySQtjpnWab6r5SVeQxMT",
+    "entrySolPerToken": 0.000003864158169103784,
+    "entrySizeSol": 0.01803903504,
+    "createdAt": "2025-12-29T04:44:24.350Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.000005796237253655676,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.000007728316338207568,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000015456632676415136,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T04:57:10.049Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 766s; marking dead."
+  },
+  {
+    "mint": "9EV3EHrYuCnfXP42bcHvyQ4pqmezH1LfN3K4AgmGUeB7",
+    "entrySolPerToken": 0.002010180467221128,
+    "entrySizeSol": 0.017586648780000002,
+    "createdAt": "2025-12-29T05:11:37.127Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0030152707008316917,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.004020360934442256,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.008040721868884512,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T05:25:34.102Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 837s; marking dead."
+  },
+  {
+    "mint": "DXPBVJJBVZvH9e1BV4UqhhcKd96ZZJB9LNzpBVW8pump",
+    "entrySolPerToken": 1.726838968335429e-7,
+    "entrySizeSol": 0.01680469814,
+    "createdAt": "2025-12-29T08:13:24.711Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.5902584525031436e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.453677936670858e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.907355873341716e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "Be83msKRVu1XHDSMEvEzcQZq91Zu4hRnq2kb1nTTtMg6",
+    "entrySolPerToken": 1.494798226530199e-7,
+    "entrySizeSol": 0.0160543187,
+    "createdAt": "2025-12-29T09:17:37.169Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.2421973397952983e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.989596453060398e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 5.979192906120796e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T09:38:50.482Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1273s; marking dead."
+  },
+  {
+    "mint": "Bwac2ChDZU5cZuxdsH3H5PfQWMarAw38u5BDEERmpump",
+    "entrySolPerToken": 3.102279886591479e-7,
+    "entrySizeSol": 0.01569034678,
+    "createdAt": "2025-12-29T09:27:45.567Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.6534198298872187e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 6.204559773182958e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000012409119546365916,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T09:37:46.062Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 600s; marking dead."
+  },
+  {
+    "mint": "6ut8MUexKUfn29Em6ngGNcRs99MoA9PNbeN8AnF275P8",
+    "entrySolPerToken": 2.2258111972087118e-7,
+    "entrySizeSol": 0.015333654260000001,
+    "createdAt": "2025-12-29T10:04:09.142Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 3.3387167958130676e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 4.4516223944174237e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 8.903244788834847e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T10:14:22.197Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 613s; marking dead."
+  },
+  {
+    "mint": "7WBZXM3Zy61rn21xYttuPeMf3RCRezL5EXNzeCNUupzD",
+    "entrySolPerToken": 4.827980831548089e-7,
+    "entrySizeSol": 0.01498409558,
+    "createdAt": "2025-12-29T12:49:01.836Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.241971247322133e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T12:58:03.019Z",
+        "hit": true,
+        "hitAt": "2025-12-29T12:58:08.102Z",
+        "sellSignature": "5Kd4pPRu987QduW24c7exH7Lk5UnCpVSjZR7SnGgvmgWcTjjkQerj8MDwGksd3cmZWfZg2Bujt1PdxiaTYNcBrso",
+        "realizedPriceSolPerToken": 7.25527584113623e-7,
+        "realizedSolProceeds": 0.009002201
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 9.655961663096178e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T13:05:42.600Z",
+        "hit": true,
+        "hitAt": "2025-12-29T13:05:49.445Z",
+        "sellSignature": "4RKwYBEdoMvouPQPZoTdsGmQxjdL1juJNSzWEdUrsnTK96TDv7vYC8crMbzpP3WLNTc79Hc6hRYAnaTBYU8eR1LH",
+        "realizedPriceSolPerToken": 9.74672642359964e-7,
+        "realizedSolProceeds": 0.012093543
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000019311923326192357,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.441742365024242e-7,
+    "beStopArmedAt": "2025-12-29T12:58:08.600Z",
+    "closedAt": "2025-12-29T13:28:37.431Z",
+    "realizedSolTotal": 0.021095744,
+    "pnlMultiple": 1.407875696425583,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 2376s; marking dead."
+  },
+  {
+    "mint": "E5aRCUNqF4aufNBtEZb7QgZbtpCPyMeZ9paYFesFwMX1",
+    "entrySolPerToken": 0.000002142834044449387,
+    "entrySizeSol": 0.01482288686,
+    "createdAt": "2025-12-29T12:59:09.032Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000032142510666740803,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.000004285668088898774,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000008571336177797547,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T13:25:53.580Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1605s; marking dead."
+  },
+  {
+    "mint": "DemtR1vX6Aoec6NuM92XapvKV3eLm9YHFs9xrnTjrokK",
+    "entrySolPerToken": 0.000005040132986835171,
+    "entrySizeSol": 0.014434823539999999,
+    "createdAt": "2025-12-29T13:05:17.906Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.000007560199480252757,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.000010080265973670343,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000020160531947340685,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-29T13:25:54.016Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1236s; marking dead."
+  },
+  {
+    "mint": "EEVSRD5SxD1irLG83VYQ2eetaLSWu9qyhVdQFmd7XpRC",
+    "entrySolPerToken": 5.101660991756871e-7,
+    "entrySizeSol": 0.01429832336,
+    "createdAt": "2025-12-29T13:43:39.579Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 7.652491487635306e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T13:52:28.129Z",
+        "hit": true,
+        "hitAt": "2025-12-29T13:52:30.370Z",
+        "sellSignature": "3dY6df2NaVJsqXAzGET25SLPBUAX3epHt2NrVdAz4pog8aFWroFjku6gF3CWdp8GeSsXDRKy3S3xp9WFdX7vgkLC",
+        "realizedPriceSolPerToken": 7.66532545888293e-7,
+        "realizedSolProceeds": 0.008589536
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.0000010203321983513742,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T14:06:18.375Z",
+        "hit": true,
+        "hitAt": "2025-12-29T14:06:20.135Z",
+        "sellSignature": "3uQAoLfSoW7dQNt1ehS4WTSD12JrgRuZWy71mLnCnGTiJCnuzxmat2BkimLRmz4VHh6QJna3P3nq1Eh64bkSdMU8",
+        "realizedPriceSolPerToken": 0.0000010398832689006572,
+        "realizedSolProceeds": 0.011652623
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000020406643967027483,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 4.693528112416321e-7,
+    "beStopArmedAt": "2025-12-29T13:52:30.860Z",
+    "closedAt": "2025-12-29T14:18:19.398Z",
+    "realizedSolTotal": 0.020242159000000003,
+    "pnlMultiple": 1.4157015819510745,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 2080s; marking dead."
+  },
+  {
+    "mint": "FxpLo2YmZLttVrL7n6cuTCjMDWiA41bvkpE1rYpJpump",
+    "entrySolPerToken": 1.7743001105379788e-7,
+    "entrySizeSol": 0.014374825499999999,
+    "createdAt": "2025-12-29T14:09:27.944Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.661450165806968e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T14:15:49.644Z",
+        "hit": true,
+        "hitAt": "2025-12-29T14:15:51.133Z",
+        "sellSignature": "4G5EYCdMQLdRuvfQVpFsB6mmYGmvKfxLUYbcR24Ps9x7ebS8Xrv3RVL2PgpzaySrobrtqMRUcNvaWcoHodXJ4BLF",
+        "realizedPriceSolPerToken": 2.6888747921214494e-7,
+        "realizedSolProceeds": 0.008696788
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5486002210759575e-7,
+        "fraction": 0.6666666667,
+        "hit": true,
+        "hitAt": "2025-12-29T14:16:09.773Z",
+        "sellSignature": "2Pk89MzyPZFBdSLvwSV2Tg71yM3JzrXeZTVimhkyK3jdsEquL5Uk9m7aEpjAPxJNyaW1PojeDjRRA9g8WXLE4J7f",
+        "realizedPriceSolPerToken": 3.049819608764861e-8,
+        "realizedSolProceeds": 0.001479632
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.097200442151915e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6323561016949405e-7,
+    "beStopArmedAt": "2025-12-29T14:15:51.802Z",
+    "beStopAttemptCount": 1,
+    "beStopLastAttemptAt": "2025-12-29T14:16:08.361Z",
+    "beStopTriggered": true,
+    "beStopTriggerTx": "2Pk89MzyPZFBdSLvwSV2Tg71yM3JzrXeZTVimhkyK3jdsEquL5Uk9m7aEpjAPxJNyaW1PojeDjRRA9g8WXLE4J7f"
+  },
+  {
+    "mint": "3sLRQkGXwX84pRR2o5c1M8oS6kMAKFbrSHZqvXjGqaSK",
+    "entrySolPerToken": 1.3307094125695667e-7,
+    "entrySizeSol": 0.01424586272,
+    "createdAt": "2025-12-29T14:35:11.362Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.9960641188543502e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T14:45:25.176Z",
+        "hit": true,
+        "hitAt": "2025-12-29T14:45:25.999Z",
+        "sellSignature": "5T7tGmZ3YLj23qn4zDteBfBAyEK2v1Xw2yzK6pWEoE5EEGj8NQhZZBSoGpt1apkwt31WqoBQgdRXW7F2pQ3KCXRB",
+        "realizedPriceSolPerToken": 2.051432108880084e-7,
+        "realizedSolProceeds": 0.008611417
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.6614188251391334e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T14:47:20.106Z",
+        "hit": true,
+        "hitAt": "2025-12-29T14:47:21.239Z",
+        "sellSignature": "4hHNKD9NULg5xX2muj2YqVagDLWcHKsKTLBqSXvSyuZ7mY8Aej9GrzbDHhkJyAAi3Qn52uQkaZETMLjduzp1nGB2",
+        "realizedPriceSolPerToken": 2.714973585992087e-7,
+        "realizedSolProceeds": 0.011396873
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 5.322837650278267e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.2242526595640014e-7,
+    "beStopArmedAt": "2025-12-29T14:45:26.486Z",
+    "closedAt": "2025-12-29T15:28:44.192Z",
+    "realizedSolTotal": 0.020008289999999998,
+    "pnlMultiple": 1.4044983019462929,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 3213s; marking dead."
+  },
+  {
+    "mint": "5h9L7SVRtFdcsT6AVuTfG2ZUmZVmNUXbKZePDuSzqWcj",
+    "entrySolPerToken": 1.6657814025997675e-7,
+    "entrySizeSol": 0.014191385700000001,
+    "createdAt": "2025-12-29T16:16:48.908Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.498672103899651e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T16:21:32.163Z",
+        "hit": true,
+        "hitAt": "2025-12-29T16:21:34.508Z",
+        "sellSignature": "kC3pnBzLPopmKhQJ6dFbbVHYSMV2it6mBnuMdUCW6tWmoNaNFNejzHFNMCQn2CEMZeAGGFdC2K3idjUssLQzfTN",
+        "realizedPriceSolPerToken": 2.9618495940216514e-7,
+        "realizedSolProceeds": 0.010091167
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.331562805199535e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T16:21:51.621Z",
+        "hit": true,
+        "hitAt": "2025-12-29T16:21:54.169Z",
+        "sellSignature": "76nsTvGBvaXfWwbVRmW52PXaJcsbZSopA2EDwRCsY5f9UTjWAtBRRLq33YKq7vbTNfVt4y9xbF4wPc1JHNF79Bv",
+        "realizedPriceSolPerToken": 3.469524874502635e-7,
+        "realizedSolProceeds": 0.011820913
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.66312561039907e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-29T16:39:58.553Z",
+        "sellSignature": "3PDptta37Uv4kUwnDKpAQJVs9b9Qrxu4TjaNeHuWE2ZTXCpVgXcCWmbKZ4QVCDZMJdaW362uVSKuwhy1SN69uCgZ",
+        "realizedPriceSolPerToken": 1.2257438638351393e-7,
+        "realizedSolProceeds": 0.002088135
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.5325188903917863e-7,
+    "beStopArmedAt": "2025-12-29T16:21:35.002Z",
+    "beStopAttemptCount": 1,
+    "beStopLastAttemptAt": "2025-12-29T16:39:57.529Z",
+    "beStopTriggered": true,
+    "beStopTriggerTx": "3PDptta37Uv4kUwnDKpAQJVs9b9Qrxu4TjaNeHuWE2ZTXCpVgXcCWmbKZ4QVCDZMJdaW362uVSKuwhy1SN69uCgZ",
+    "closedAt": "2025-12-29T16:39:59.047Z",
+    "realizedSolTotal": 0.024000215000000002,
+    "pnlMultiple": 1.691181925948218,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "2Sd9Zmf9dpRviBKbzkJxrR5nXwFtot5NTHygeguP4B1K",
+    "entrySolPerToken": 1.690256655999138e-7,
+    "entrySizeSol": 0.0138159524,
+    "createdAt": "2025-12-29T16:21:20.108Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.535384983998707e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.380513311998276e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.761026623996552e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-30T01:01:03.168Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 31183s; marking dead."
+  },
+  {
+    "mint": "BGtwwcaThW5So1g2vCvoNjwc9Pufwfijc1wQPLf9Gowb",
+    "entrySolPerToken": 1.700717686224318e-7,
+    "entrySizeSol": 0.01358654016,
+    "createdAt": "2025-12-29T20:46:41.793Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.551076529336477e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T20:51:42.043Z",
+        "hit": true,
+        "hitAt": "2025-12-29T20:51:43.368Z",
+        "sellSignature": "4AymY5HxpagmxJNT7mmB1GCFFpgaR3PyAG9RtxepaELWuefptZqYRmYBkdfMDtBDNrJNLGkMWEN1V4QLVeQRjTS8",
+        "realizedPriceSolPerToken": 3.043581242333946e-7,
+        "realizedSolProceeds": 0.009725715
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.401435372448636e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T21:18:30.774Z",
+        "hit": true,
+        "hitAt": "2025-12-29T21:18:31.585Z",
+        "sellSignature": "2WUg7osnsn6ZBmGbuXx4Dp7TQ4H1GiTfqTWk4VHEp1YNUFMbL89Td5V9UMgDC5nqQQGtCgjFD5PxGaiJvZyrapy7",
+        "realizedPriceSolPerToken": 4.637468403656364e-7,
+        "realizedSolProceeds": 0.014819045
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.802870744897272e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.5646602713263727e-7,
+    "beStopArmedAt": "2025-12-29T20:51:43.867Z",
+    "closedAt": "2025-12-29T21:41:09.782Z",
+    "realizedSolTotal": 0.02454476,
+    "pnlMultiple": 1.8065496963135608,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 3268s; marking dead."
+  },
+  {
+    "mint": "58JfHGw99cR7bBxXyCk3Waj8EpBkV4W3G2rVM1rypump",
+    "entrySolPerToken": 2.8896243302123924e-7,
+    "entrySizeSol": 0.013714012440000001,
+    "createdAt": "2025-12-29T23:21:49.728Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.3344364953185887e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T23:28:05.768Z",
+        "hit": true,
+        "hitAt": "2025-12-29T23:28:07.277Z",
+        "sellSignature": "5BbdG6qQxNw2hzV3ydivECgwArrUz4HHbAjA8Ce29neSrmPdF5c49UnweGmSBGTJWpNMqKvfPK6kmWpvjkAkB82x",
+        "realizedPriceSolPerToken": 5.461365793877993e-7,
+        "realizedSolProceeds": 0.01021765
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.779248660424785e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-29T23:34:37.249Z",
+        "hit": true,
+        "hitAt": "2025-12-29T23:34:38.033Z",
+        "sellSignature": "K7aSfgecTpZQseWRD5LPwMLPTABdBtViA6U2ZmTQFKEQozvju7W98Bs92BDnJTp21z4akZZkH9j3gWEkNgrw9B6",
+        "realizedPriceSolPerToken": 5.871265010940263e-7,
+        "realizedSolProceeds": 0.010984529
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000001155849732084957,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 2.658454383795401e-7,
+    "beStopArmedAt": "2025-12-29T23:28:07.770Z",
+    "closedAt": "2025-12-29T23:41:23.878Z",
+    "realizedSolTotal": 0.021202179,
+    "pnlMultiple": 1.5460230251913056,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 1174s; marking dead."
+  },
+  {
+    "mint": "8UQxEoZaZ8N1mB1xNDC8rrXFejL8Ey1xRwTDgAwhn6Nz",
+    "entrySolPerToken": 2.7103479199596037e-7,
+    "entrySizeSol": 0.013823074040000001,
+    "createdAt": "2025-12-30T03:40:38.945Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.065521879939406e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.420695839919207e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000010841391679838415,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-30T03:50:48.309Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 609s; marking dead."
+  },
+  {
+    "mint": "2m33Azi2BWRcrEwxgAjFqscRygeB5McTdGgqCduNdbZT",
+    "entrySolPerToken": 1.549806256359147e-7,
+    "entrySizeSol": 0.01350372704,
+    "createdAt": "2025-12-30T04:48:16.414Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.3247093845387205e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.099612512718294e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.199225025436588e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-30T04:58:29.624Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 613s; marking dead."
+  },
+  {
+    "mint": "61WhRKeVGP7TTz6t6tJfcHuwt85Wxe8HXRA4LnBWnptt",
+    "entrySolPerToken": 1.563411334129623e-7,
+    "entrySizeSol": 0.01314204694,
+    "createdAt": "2025-12-30T04:54:20.195Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.3451170011944345e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T04:57:20.514Z",
+        "hit": true,
+        "hitAt": "2025-12-30T04:57:23.931Z",
+        "sellSignature": "4nco9ZorAkQHYtKUCfNd2Ddb5PdeaJDCVJrMkR7XoDPHKyNQqyAbf7efubLoAihs1tdNY26HUWRQWwcmxdYRCThv",
+        "realizedPriceSolPerToken": 2.4596364463231126e-7,
+        "realizedSolProceeds": 0.008264852
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.126822668259246e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T05:00:07.483Z",
+        "hit": true,
+        "hitAt": "2025-12-30T05:00:10.380Z",
+        "sellSignature": "28tEgELDoTxiQRjZn7dYknD93AevWcTbvgGefAzWnws8Aiy11sE9S7A7tzVaySnLhU5Nyy6yGBuftZHCwj1pDQ39",
+        "realizedPriceSolPerToken": 3.2313964318709194e-7,
+        "realizedSolProceeds": 0.01085818
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.253645336518492e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.438338427399253e-7,
+    "beStopArmedAt": "2025-12-30T04:57:24.416Z",
+    "closedAt": "2025-12-30T05:05:18.768Z",
+    "realizedSolTotal": 0.019123031999999998,
+    "pnlMultiple": 1.455103005437903,
+    "outcome": "WIN",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 659s; marking dead."
+  },
+  {
+    "mint": "HENpzBjycmiLPKbdDhEVxAuMSAFNBHksvakiiJcSnHoz",
+    "entrySolPerToken": 0.0000010089822152699856,
+    "entrySizeSol": 0.0131321936,
+    "createdAt": "2025-12-30T07:37:06.909Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000015134733229049785,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T07:57:02.556Z",
+        "hit": true,
+        "hitAt": "2025-12-30T07:57:03.266Z",
+        "sellSignature": "4HNvoSbAuuyb9YkkScGLXme4Koh2q65VvnhAmAXjNig5UD3tATnAB2jmZSje61PBsNbuJYA3wMsx6RmVHQhEhmJq",
+        "realizedPriceSolPerToken": 0.0000015246336248711924,
+        "realizedSolProceeds": 0.007921128
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.000002017964430539971,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T08:07:34.730Z",
+        "hit": true,
+        "hitAt": "2025-12-30T08:07:36.982Z",
+        "sellSignature": "2xH7e1dB2uwYR48CBzzQKaC3HTckZBPu8GeehEHsSWF7xPP5YZFDH5S8WQYEiynT8ZkQ1NugJLjbYVfj6TZF94in",
+        "realizedPriceSolPerToken": 0.000002025343048421469,
+        "realizedSolProceeds": 0.010522529
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.000004035928861079942,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T08:35:51.547Z",
+        "hit": true,
+        "hitAt": "2025-12-30T08:35:52.530Z",
+        "sellSignature": "3Zwh1HR3XPvUzThMAueedDH7CTs4eA77tYZ7xofFXM64GBX1TneUGn2uCuNLCogTnoq3TKy37t2qWzyaSwU7eNET",
+        "realizedPriceSolPerToken": 0.000004082091385844928,
+        "realizedSolProceeds": 0.010604111
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 9.282636380483867e-7,
+    "beStopArmedAt": "2025-12-30T07:57:03.765Z",
+    "closedAt": "2025-12-30T08:35:53.021Z",
+    "realizedSolTotal": 0.029047767999999998,
+    "pnlMultiple": 2.2119509416918737,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "DWoxkVjpqAFtz4wmdtjjdz1gQ7jX3kiyUkPTyT5Apump",
+    "entrySolPerToken": 1.7336985573132356e-7,
+    "entrySizeSol": 0.01340809498,
+    "createdAt": "2025-12-30T08:45:19.469Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.6005478359698537e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T08:54:38.444Z",
+        "hit": true,
+        "hitAt": "2025-12-30T08:54:45.050Z",
+        "sellSignature": "TWk9SZiB8x7ruejYBjMshj42LQYqsTuyP2Awc2xGcACL2WMFe8BgNA8udmjUr7DMZXzh3qFJ591ohT1cfTLSYiG",
+        "realizedPriceSolPerToken": 2.8370078044184876e-7,
+        "realizedSolProceeds": 0.008760439
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.467397114626471e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T08:58:48.645Z",
+        "hit": true,
+        "hitAt": "2025-12-30T08:58:49.408Z",
+        "sellSignature": "tTP5nwYTueBvETwdYTtJSvjcMhqivNHfggpx48bYKnJfMCywG4Es3RDAPyprdEX5GA3qhcZTRJs4c7CPD5ieKfH",
+        "realizedPriceSolPerToken": 3.4925996807274434e-7,
+        "realizedSolProceeds": 0.010784851
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.934794229252942e-7,
+        "fraction": 1,
+        "hit": true,
+        "hitAt": "2025-12-30T09:03:59.141Z",
+        "sellSignature": "49reGKMAPwhpn1dSdZPE5gscNBsu137w3jSNhtfWeCW2QUhwpYVMog6TNJ8qXouriiwZp5ys93orN1D6U1HPF9yn",
+        "realizedPriceSolPerToken": 2.7736385087095284e-8,
+        "realizedSolProceeds": 0.000428238
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.5950026727281767e-7,
+    "beStopArmedAt": "2025-12-30T08:54:45.568Z",
+    "beStopAttemptCount": 1,
+    "beStopLastAttemptAt": "2025-12-30T09:03:58.164Z",
+    "beStopTriggered": true,
+    "beStopTriggerTx": "49reGKMAPwhpn1dSdZPE5gscNBsu137w3jSNhtfWeCW2QUhwpYVMog6TNJ8qXouriiwZp5ys93orN1D6U1HPF9yn",
+    "closedAt": "2025-12-30T09:03:59.639Z",
+    "realizedSolTotal": 0.019973528,
+    "pnlMultiple": 1.4896618818551957,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "2CSt8hXa4AkQvK9PBLDAUc7GUV41pibHgXZQ1CcRNWGD",
+    "entrySolPerToken": 1.7385017598065458e-7,
+    "entrySizeSol": 0.0132711359,
+    "createdAt": "2025-12-30T08:58:27.446Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.607752639709819e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T09:07:45.451Z",
+        "hit": true,
+        "hitAt": "2025-12-30T09:07:48.678Z",
+        "sellSignature": "4JEhCEH89E9UqHarRtab9yvuAzfRQJCRHasCSVbGydpCrfYQFjGxupSK1y8LwarNQgVEP8nrDkemz3h42KNzG7KD",
+        "realizedPriceSolPerToken": 5.914727928514494e-7,
+        "realizedSolProceeds": 0.018060415
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.4770035196130915e-7,
+        "fraction": 0.6666666667,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T09:07:49.725Z",
+        "hit": true,
+        "hitAt": "2025-12-30T09:07:55.546Z",
+        "sellSignature": "4pwKg7fssetz2U7Z9B73tqMA9z2CruAsZxQFg5kF74AcnaTmvcKyjisZNS5GKscyGafYpM4EARHYGeZNYkvhQg5i",
+        "realizedPriceSolPerToken": 6.062372596467433e-7,
+        "realizedSolProceeds": 0.018511354
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.954007039226183e-7,
+        "fraction": 1,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T09:22:43.148Z",
+        "hit": true,
+        "hitAt": "2025-12-30T09:22:45.120Z",
+        "sellSignature": "4LzY1uBrsjBS7HuYyr72YsA12LveXqKDxMru6uXPbFXqzT823aUFs7jLsyiVPeT7sbD3m7Jtjz3uaZVYS6YzRmVD",
+        "realizedPriceSolPerToken": 7.130430051793387e-7,
+        "realizedSolProceeds": 0.010886521
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.599421619022022e-7,
+    "beStopArmedAt": "2025-12-30T09:07:49.235Z",
+    "closedAt": "2025-12-30T09:22:45.611Z",
+    "realizedSolTotal": 0.04745829,
+    "pnlMultiple": 3.5760533504897647,
+    "outcome": "WIN"
+  },
+  {
+    "mint": "EfrZJ9dTUMe7QwbWPS4CpdDDhuemGiJvzFiApz7ppump",
+    "entrySolPerToken": 1.7907399300684409e-7,
+    "entrySizeSol": 0.014010800180000001,
+    "createdAt": "2025-12-30T09:43:02.205Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.686109895102661e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5814798601368817e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.162959720273763e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "H1iB33irzXTYJvSt2CxvdVotavHSAafBR2eyN3gANQ7K",
+    "entrySolPerToken": 1.453861870444122e-7,
+    "entrySizeSol": 0.013687698580000001,
+    "createdAt": "2025-12-30T09:50:00.360Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.180792805666183e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.907723740888244e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 5.815447481776488e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-30T10:02:03.070Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 723s; marking dead."
+  },
+  {
+    "mint": "DFQ3ku3bWi6tGQdynw9thoyF8qrXd3hzKhGU5W2Fpump",
+    "entrySolPerToken": 1.7674837284253948e-7,
+    "entrySizeSol": 0.01332233902,
+    "createdAt": "2025-12-30T10:02:05.226Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.651225592638092e-7,
+        "fraction": 0.4,
+        "attemptCount": 1,
+        "lastAttemptAt": "2025-12-30T10:14:21.870Z",
+        "hit": true,
+        "hitAt": "2025-12-30T10:14:25.739Z",
+        "sellSignature": "37ygmFkM2ToSoyqKkRu4bqSrKE5WR8d1VMahYB7QkQ1hgCWVKqNQuDq1MqNguhK7axBvF7PqtDX6esXJ3zPLdDaG",
+        "realizedPriceSolPerToken": 3.3198620628116025e-7,
+        "realizedSolProceeds": 0.010003518
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.5349674568507896e-7,
+        "fraction": 0.6666666667,
+        "hit": true,
+        "hitAt": "2025-12-30T10:21:28.056Z",
+        "sellSignature": "3EpMCKfC4Yd21Ynd3oYPpRk8hhs1571jgnWcJjqAVtaREdW56AnCpkUJMKjx4s9LYnCw9egi6of5virXCgyqKa6w",
+        "realizedPriceSolPerToken": 2.7949448101614716e-8,
+        "realizedSolProceeds": 0.001263273
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.069934913701579e-7,
+        "fraction": 1
+      }
+    ],
+    "beStopEnabled": true,
+    "beStopSolPerToken": 1.6260850301513634e-7,
+    "beStopArmedAt": "2025-12-30T10:14:26.227Z",
+    "beStopAttemptCount": 1,
+    "beStopLastAttemptAt": "2025-12-30T10:21:26.460Z",
+    "beStopTriggered": true,
+    "beStopTriggerTx": "3EpMCKfC4Yd21Ynd3oYPpRk8hhs1571jgnWcJjqAVtaREdW56AnCpkUJMKjx4s9LYnCw9egi6of5virXCgyqKa6w"
+  },
+  {
+    "mint": "W119y194rwMxHqngZCPo5HobtofVBk4To6DhpD8pump",
+    "entrySolPerToken": 1.7285703537071286e-7,
+    "entrySizeSol": 0.01323767764,
+    "createdAt": "2025-12-30T12:47:30.078Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.592855530560693e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.457140707414257e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.914281414828514e-7,
+        "fraction": 1
+      }
+    ]
+  },
+  {
+    "mint": "4J3oc3uURS95dK2HBch4JBwGgkGwzyBMLbbbk54HbCpw",
+    "entrySolPerToken": 8.027262698786581e-7,
+    "entrySizeSol": 0.01295337704,
+    "createdAt": "2025-12-31T20:04:41.835Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 0.0000012040894048179873,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 0.0000016054525397573163,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000032109050795146326,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2025-12-31T23:41:42.130Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 13020s; marking dead."
+  },
+  {
+    "mint": "C5KPFSUN4d1enbGmWNoVnNpG2bP3rooRuuUPWZzQrS1t",
+    "entrySolPerToken": 2.806892511204942e-7,
+    "entrySizeSol": 0.0126514239,
+    "createdAt": "2026-01-01T18:35:40.631Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 4.2103387668074125e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 5.613785022409884e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 0.0000011227570044819767,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2026-01-01T19:54:56.687Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 4756s; marking dead."
+  },
+  {
+    "mint": "HEC5K5bNYvaVr5HQdExCeNYwkcxJ9MV3ePQEi6teCHrC",
+    "entrySolPerToken": 1.584357978782073e-7,
+    "entrySizeSol": 0.01235550988,
+    "createdAt": "2026-01-02T07:09:27.293Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.3765369681731093e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.168715957564146e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.337431915128292e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2026-01-03T02:04:04.201Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 68077s; marking dead."
+  },
+  {
+    "mint": "4NoLW6NyKLsakRptpX6LvSEq5iCfGEa6s3kbneeC8XPy",
+    "entrySolPerToken": 1.7019228418222402e-7,
+    "entrySizeSol": 0.01201679414,
+    "createdAt": "2026-01-03T09:01:06.009Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.55288426273336e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.4038456836444803e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 6.807691367288961e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2026-01-03T16:18:09.670Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 26224s; marking dead."
+  },
+  {
+    "mint": "9wS6WxHZUnuLfFHj2F7fCfNvsh1icQDZhEdjfAucRucW",
+    "entrySolPerToken": 1.8336357858312676e-7,
+    "entrySizeSol": 0.0116848527,
+    "createdAt": "2026-01-03T19:25:24.165Z",
+    "status": "CLOSED",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 2.7504536787469015e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 3.667271571662535e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 7.33454314332507e-7,
+        "fraction": 1
+      }
+    ],
+    "closedAt": "2026-01-03T23:08:06.869Z",
+    "realizedSolTotal": 0,
+    "pnlMultiple": 0,
+    "outcome": "LOSS_RUG",
+    "notes": "[TP] No Jupiter route (HTTP 400 quote) after 13363s; marking dead."
+  },
+  {
+    "mint": "4T8oa1cejquLdHGWqBEESqpzx7ivg38z2R9UxFHCVrga",
+    "entrySolPerToken": 1.2195970453819528e-7,
+    "entrySizeSol": 0.0113674845,
+    "createdAt": "2026-01-04T12:28:58.707Z",
+    "status": "OPEN",
+    "regime": "B_BASE",
+    "ladders": [
+      {
+        "multiple": 1.5,
+        "targetSolPerToken": 1.8293955680729291e-7,
+        "fraction": 0.4
+      },
+      {
+        "multiple": 2,
+        "targetSolPerToken": 2.4391940907639057e-7,
+        "fraction": 0.6666666667
+      },
+      {
+        "multiple": 4,
+        "targetSolPerToken": 4.878388181527811e-7,
+        "fraction": 1
+      }
+    ]
+  }
+]
