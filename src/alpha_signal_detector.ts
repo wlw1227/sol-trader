@@ -22,6 +22,7 @@ const SOLANA_RPC_URL =
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+const PAPER_TRADE = process.env.PAPER_TRADE === "true";
 
 const SIGNAL_QUERY = `
 WITH tier_mentions AS (
@@ -280,7 +281,11 @@ async function poll(tradedMints: Set<string>) {
       },
     };
 
-    sendSignal(signal);
+    if (PAPER_TRADE) {
+      log(`[PAPER] Would have traded ${mint} — ${sizeSol} SOL position`);
+    } else {
+      sendSignal(signal);
+    }
     saveTradedMint(tradedMints, mint);
 
     const mintShort = mint.slice(0, 8);
@@ -304,6 +309,7 @@ async function poll(tradedMints: Set<string>) {
         "- 10% rides for moonshot",
         "",
         "⛔ Stop loss: -40% from entry",
+        ...(PAPER_TRADE ? ["", "🧪 PAPER TRADE — not executed"] : []),
       ].join("\n")
     );
   }
