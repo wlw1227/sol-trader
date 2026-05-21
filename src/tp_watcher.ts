@@ -130,12 +130,39 @@ async function maybeSend(msg: string) {
   await sendTelegramMessage(msg);
 }
 
+const TG_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TG_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+
+async function sendTelegram(message: string): Promise<void> {
+  if (!TG_BOT_TOKEN || !TG_CHAT_ID) return;
+  try {
+    const res = await fetch(
+      `https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage`,
+      {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          chat_id: TG_CHAT_ID,
+          text: message,
+          disable_web_page_preview: true,
+        }),
+      }
+    );
+    if (!res.ok) {
+      console.error("[TP] Telegram send failed:", res.status, await res.text());
+    }
+  } catch (e) {
+    console.error("[TP] Telegram error:", e);
+  }
+}
+
 async function armBreakevenStopIfNeeded(pos: PositionRecord) {
   if (pos.beStopEnabled) return;
   const entry = pos.entrySolPerToken;
   if (!entry || entry <= 0) return;
 
-  const stop = entry * (1 - BE_CUSHION_PCT);
+  const cushion = pos.stop_cushion_pct ?? BE_CUSHION_PCT;
+  const stop = entry * (1 - cushion);
   pos.beStopEnabled = true;
   pos.beStopSolPerToken = stop;
   pos.beStopArmedAt = new Date().toISOString();
@@ -146,7 +173,7 @@ async function armBreakevenStopIfNeeded(pos: PositionRecord) {
       `Mint: \`${pos.mint}\``,
       `Regime: *${fmtRegime(pos.regime)}*`,
       `Stop: ${stop.toFixed(9)} SOL/token`,
-      `Cushion: ${(BE_CUSHION_PCT * 100).toFixed(0)}% below entry`,
+      `Cushion: ${(cushion * 100).toFixed(0)}% below entry`,
     ].join("\n")
   );
 }
@@ -208,14 +235,14 @@ async function triggerBreakevenStop(pos: PositionRecord, currentPrice: number) {
     pos.beStopTriggered = true;
     pos.beStopTriggerTx = sellResult.live?.signature ?? undefined;
 
-    await maybeSend(
+    await sendTelegram(
       [
-        "🛑 *PROTECT STOP SOLD REMAINDER*",
-        `Mint: \`${pos.mint}\``,
-        `Regime: *${fmtRegime(pos.regime)}*`,
-        `Price: ${(sellResult.prices?.realized_SOL_per_token ?? currentPrice).toFixed(9)} SOL/token`,
-        sellResult.live?.explorer ? `Tx: ${sellResult.live.explorer}` : "",
-      ].filter(Boolean).join("\n")
+        "🛑 STOP LOSS TRIGGERED",
+        "",
+        `Token: ${pos.mint.slice(0, 8)}...`,
+        `Stop: Breakeven protect (-${((pos.stop_cushion_pct ?? BE_CUSHION_PCT) * 100).toFixed(0)}%)`,
+        "Sold: 100% of remaining position",
+      ].join("\n")
     );
   } catch (e) {
     await maybeSend(
@@ -248,13 +275,13 @@ async function processPosition(pos: PositionRecord): Promise<PositionRecord> {
           "LOSS_RUG",
           `[TP] No Jupiter route (HTTP 400 quote) after ${Math.round(ageSec)}s; marking dead.`
         );
-        await maybeSend(
+        await sendTelegram(
           [
-            "⚰️ *POSITION MARKED DEAD*",
-            `Mint: \`${pos.mint}\``,
-            `Regime: *${fmtRegime(pos.regime)}*`,
-            `Reason: No quote route on Jupiter (HTTP 400) after ${Math.round(ageSec)}s.`,
-            `Outcome: ${pos.outcome}`,
+            "☠️ RUG DETECTED",
+            "",
+            `Token: ${pos.mint.slice(0, 8)}...`,
+            "Jupiter returned no route — position closed as rug.",
+            `Loss: ${(pos.entrySizeSol ?? 0).toFixed(4)} SOL`,
           ].join("\n")
         );
       }
@@ -320,15 +347,26 @@ async function processPosition(pos: PositionRecord): Promise<PositionRecord> {
         if (realizedPrice != null) ladder.realizedPriceSolPerToken = realizedPrice;
         if (realizedSolProceeds != null) ladder.realizedSolProceeds = realizedSolProceeds;
 
-        await maybeSend(
+        // remaining fraction of original position after all hit ladders
+        let remaining = 1.0;
+        for (const l of pos.ladders) {
+          if (l.hit) remaining *= (1 - l.fraction);
+        }
+        const levelsHit = pos.ladders.filter((l) => l.hit).length;
+
+        await sendTelegram(
           [
-            "💰 *TAKE PROFIT HIT*",
-            `Mint: \`${pos.mint}\``,
-            `Regime: *${fmtRegime(pos.regime)}*`,
-            `Ladder: ${ladder.multiple}x (${(ladder.fraction * 100).toFixed(0)}% of remaining)`,
-            `Price: ${realizedPrice.toFixed(9)} SOL/token`,
-            sellResult.live?.explorer ? `Tx: ${sellResult.live.explorer}` : "",
-          ].filter(Boolean).join("\n")
+            "⚡ TAKE PROFIT HIT",
+            "",
+            `Token: ${pos.mint.slice(0, 8)}...`,
+            `Level: ${ladder.multiple}x → sold ${(ladder.fraction * 100).toFixed(0)}%`,
+            `Realized: ~${(realizedSolProceeds ?? 0).toFixed(4)} SOL`,
+            "",
+            "📊 Position Status:",
+            `- Entry: ${(pos.entrySizeSol ?? 0).toFixed(4)} SOL`,
+            `- Ladder: ${levelsHit} of ${pos.ladders.length} levels hit`,
+            `- Remaining: ${(remaining * 100).toFixed(0)}%`,
+          ].join("\n")
         );
 
         // Arm stop after first TP
@@ -350,22 +388,22 @@ async function processPosition(pos: PositionRecord): Promise<PositionRecord> {
   if (pos.ladders.every((l) => l.hit)) {
     closePositionWithOutcome(pos, "WIN");
 
-    const hitMultiples = pos.ladders.map((l) => `${l.multiple}x`).join(", ");
-    const pnlStr = pos.pnlMultiple != null ? pos.pnlMultiple.toFixed(2) + "x" : "n/a";
-    const realized = pos.realizedSolTotal ?? 0;
-    const entrySizeSol = pos.entrySizeSol ?? 0;
+    const pnlMult = pos.pnlMultiple ?? 0;
+    const closedResult =
+      pnlMult >= 2 ? "🔥 Strong win" :
+      pnlMult >= 1.5 ? "✅ Win" :
+      pnlMult >= 1 ? "➡️ Breakeven" :
+      "❌ Loss";
 
-    await maybeSend(
+    await sendTelegram(
       [
-        "✅ *POSITION CLOSED*",
-        `Mint: \`${pos.mint}\``,
-        `Regime: *${fmtRegime(pos.regime)}*`,
-        `Ladders hit: ${hitMultiples}`,
-        `Realized: ${realized.toFixed(4)} SOL`,
-        `Entry size: ${entrySizeSol.toFixed(4)} SOL`,
-        `PnL multiple: ${pnlStr}`,
+        "✅ POSITION CLOSED",
+        "",
+        `Token: ${pos.mint.slice(0, 8)}...`,
         `Outcome: ${pos.outcome}`,
-        `Closed at: ${pos.closedAt}`,
+        `Total realized: ${(pos.realizedSolTotal ?? 0).toFixed(4)} SOL`,
+        `PnL multiple: ${pnlMult.toFixed(2)}x`,
+        `Result: ${closedResult}`,
       ].join("\n")
     );
   }
