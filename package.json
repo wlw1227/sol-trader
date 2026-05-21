@@ -9,7 +9,8 @@
     "tp-watcher": "ts-node src/tp_watcher.ts",
     "trade-once": "ts-node src/trader.ts",
     "stats-bot": "ts-node src/telegram_bot.ts",
-    "alpha-detector": "ts-node src/alpha_signal_detector.ts"
+    "alpha-detector": "ts-node src/alpha_signal_detector.ts",
+    "paper-tracker": "ts-node src/paper_trade_tracker.ts"
   },
   "dependencies": {
     "@solana/web3.js": "^1.98.4",

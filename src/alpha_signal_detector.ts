@@ -4,6 +4,7 @@ import fs from "fs";
 import dotenv from "dotenv";
 dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
+import { randomUUID } from "crypto";
 import { Pool } from "pg";
 import WebSocket from "ws";
 import { Connection, Keypair, LAMPORTS_PER_SOL } from "@solana/web3.js";
@@ -23,6 +24,8 @@ const SOLANA_RPC_URL =
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const PAPER_TRADE = process.env.PAPER_TRADE === "true";
+const PAPER_TRADES_FILE = path.resolve(__dirname, "../data/paper_trades.json");
+const SOL_MINT = "So11111111111111111111111111111111111111112";
 
 const SIGNAL_QUERY = `
 WITH tier_mentions AS (
@@ -146,6 +149,82 @@ function computePositionSize(solBalance: number): number {
   const raw = solBalance * 0.02;
   const rounded = Math.round(raw * 100) / 100;
   return Math.max(rounded, 0.1);
+}
+
+// --- Paper trade file ---
+
+async function getEntryPrice(mint: string): Promise<number | null> {
+  try {
+    const url = new URL("/swap/v1/quote", "https://lite-api.jup.ag");
+    url.searchParams.set("inputMint", SOL_MINT);
+    url.searchParams.set("outputMint", mint);
+    url.searchParams.set("amount", "1000000000");
+    url.searchParams.set("slippageBps", "500");
+
+    const res = await fetch(url.toString());
+    if (!res.ok) return null;
+
+    const quote = (await res.json()) as any;
+    const outAmount = Number(quote.outAmount);
+    if (!outAmount || outAmount === 0) return null;
+
+    return 1 / (outAmount / 1e9);
+  } catch {
+    return null;
+  }
+}
+
+async function recordPaperTrade(
+  mint: string,
+  sizeSol: number,
+  chain: string,
+  row: any
+): Promise<void> {
+  let trades: any[] = [];
+  try {
+    if (fs.existsSync(PAPER_TRADES_FILE)) {
+      const raw = JSON.parse(fs.readFileSync(PAPER_TRADES_FILE, "utf8"));
+      trades = Array.isArray(raw.trades) ? raw.trades : [];
+    }
+  } catch {}
+
+  const entryPrice = await getEntryPrice(mint);
+  if (entryPrice === null) {
+    log(`Jupiter entry price unavailable for ${mint}, recording with null`);
+  }
+
+  trades.push({
+    id: randomUUID(),
+    mint_address: mint,
+    chain,
+    entry_price_sol: entryPrice,
+    size_sol: sizeSol,
+    entered_at: new Date().toISOString(),
+    status: "OPEN",
+    t1_channel: row.t1_channel,
+    t2_channel: row.t2_channel,
+    hours_between_calls: Number(row.hours_between),
+    pct_of_way_to_peak: Number(row.pct_of_way_to_peak),
+    tp_levels: [
+      { multiple: 2.0, pct: 0.40, hit: false, hit_at: null },
+      { multiple: 5.0, pct: 0.30, hit: false, hit_at: null },
+      { multiple: 10.0, pct: 0.20, hit: false, hit_at: null },
+    ],
+    stop_loss_pct: 0.40,
+    stop_hit: false,
+    stop_hit_at: null,
+    closed_at: null,
+    realized_multiple: null,
+    realized_sol: null,
+    notes: "",
+  });
+
+  try {
+    fs.writeFileSync(PAPER_TRADES_FILE, JSON.stringify({ trades }, null, 2));
+    log(`Paper trade recorded: ${mint}`);
+  } catch (e) {
+    log("Failed to write paper_trades.json:", e);
+  }
 }
 
 // --- Telegram ---
@@ -283,6 +362,7 @@ async function poll(tradedMints: Set<string>) {
 
     if (PAPER_TRADE) {
       log(`[PAPER] Would have traded ${mint} — ${sizeSol} SOL position`);
+      await recordPaperTrade(mint, sizeSol, chain, row);
     } else {
       sendSignal(signal);
     }
