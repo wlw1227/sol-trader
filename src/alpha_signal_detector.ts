@@ -4,6 +4,14 @@ import fs from "fs";
 import dotenv from "dotenv";
 dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
+process.on("uncaughtException", (err) => {
+  console.error("[ALPHA-DETECTOR] Uncaught exception:", err.message);
+});
+
+process.on("unhandledRejection", (reason) => {
+  console.error("[ALPHA-DETECTOR] Unhandled rejection:", reason);
+});
+
 import { randomUUID } from "crypto";
 import { Pool } from "pg";
 import WebSocket from "ws";
@@ -294,7 +302,9 @@ function sendSignal(payload: object) {
 
 // --- DB pool ---
 
-const pool = new Pool({ connectionString: DB_URL });
+const FATAL_DB_CODES = new Set(["57P01", "ECONNRESET", "ECONNREFUSED"]);
+
+let pool = new Pool({ connectionString: DB_URL });
 
 // --- Poll loop ---
 
@@ -307,7 +317,12 @@ async function poll(tradedMints: Set<string>) {
     const result = await pool.query(SIGNAL_QUERY);
     rows = result.rows;
   } catch (e: any) {
-    log("DB query error (will retry next cycle):", e?.message ?? e);
+    log("DB error (will retry next cycle):", e?.message ?? e);
+    if (FATAL_DB_CODES.has(e?.code)) {
+      try { await pool.end(); } catch { /* already gone */ }
+      pool = new Pool({ connectionString: DB_URL });
+      log("DB pool recreated after fatal connection error");
+    }
     return;
   }
 

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
-    "start": "npm-run-all --parallel signal-server ws tp-watcher stats-bot alpha-detector",
+    "start": "npm-run-all --parallel --continue-on-error signal-server ws tp-watcher stats-bot alpha-detector",
     "signal-server": "ts-node src/signal_server.ts",
     "ws": "ts-node src/ws_client.ts",
     "tp-watcher": "ts-node src/tp_watcher.ts",
